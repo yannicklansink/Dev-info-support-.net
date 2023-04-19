@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "0685a9f0d1a7b2f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e462223bcb686e5a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Data Science Football Project.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ee6a3aeb44279310",
+    "type": "split",
+    "children": [
+      {
+        "id": "c32d4b6987398050",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b4426d6786ee8d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1fb51fe11d841e9c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "24b7a8f306f779b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "398ba310f11f1f15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf4353b728817768",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data Science Football Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e462223bcb686e5a",
+  "lastOpenFiles": [
+    "Data Science Football Project.md",
+    "Server-side programming.md",
+    "Pasted image 20210827091629.png",
+    "Algorithms and Data Structures Course.md",
+    "Untitled.md"
+  ]
+}
