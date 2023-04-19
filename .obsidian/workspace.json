@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "85377d2cce988255",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +115,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e462223bcb686e5a",
+  "active": "85377d2cce988255",
   "lastOpenFiles": [
     "Data Science Football Project.md",
     "Algorithms and Data Structures Course.md",
