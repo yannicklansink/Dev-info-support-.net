@@ -11,12 +11,8 @@
             "id": "e462223bcb686e5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms and Data Structures Course.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms and Data Structures Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -112,11 +107,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "da62a3b04099c619",
+  "active": "e462223bcb686e5a",
   "lastOpenFiles": [
     "test.md",
-    "Data Science Football Project.md",
     "Algorithms and Data Structures Course.md",
+    "Data Science Football Project.md",
     "Pasted image 20210827091629.png",
     "Server-side programming.md"
   ]
