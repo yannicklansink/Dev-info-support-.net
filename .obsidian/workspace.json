@@ -11,15 +11,24 @@
             "id": "e462223bcb686e5a",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6106d09e1a16cc63",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "test.md",
-                "mode": "source",
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,10 +121,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e462223bcb686e5a",
+  "active": "6106d09e1a16cc63",
   "lastOpenFiles": [
-    "Algorithms and Data Structures Course.md",
+    "conflict-files-obsidian-git.md",
     "test.md",
+    "Algorithms and Data Structures Course.md",
     "Data Science Football Project.md",
     "Pasted image 20210827091629.png",
     "Server-side programming.md"
