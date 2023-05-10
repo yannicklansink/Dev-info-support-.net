@@ -11,8 +11,12 @@
             "id": "e462223bcb686e5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms and Data Structures Course.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -52,6 +56,14 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "083d11a7d5007971",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -73,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithms and Data Structures Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",

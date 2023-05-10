@@ -7,3 +7,4 @@ Algorithmic thinking:
 This approach **automates the problem-solving process** by creating a series of systematic logical steps that process a defined set of inputs and produce a defined set of outputs based on these.
 
 Cool :0
+d
