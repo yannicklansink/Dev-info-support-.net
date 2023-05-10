@@ -24,6 +24,8 @@ Console.WriteLine(myString); // output: hello
 Console.WriteLine(myBool);   // output: true
 ```
 
-Tuple types zijn handig wanneer je een tijdelijke groepering van waarden nodig heeft die je niet permanent wilt opslaan als een klasse of structuur. Ze kunnen ook nuttig zijn in methoden en functies waarbij je meerdere waarden moet retourneren, maar geen nieuwe klasse of structuur wilt definiëren om ze samen te voegen.
+Tuple types zijn handig wanneer je een tijdelijke groepering van waarden nodig hebt die je niet permanent wilt opslaan als een klasse of structuur. Ze kunnen ook nuttig zijn in methoden en functies waarbij je meerdere waarden moet retourneren, maar geen nieuwe klasse of structuur wilt definiëren om ze samen te voegen.
 
 Bovendien kun je met C# 7.0 en hoger tuple types ook benoemen. In plaats van de waarden te definiëren als (int, string, bool), kunt je ze bijvoorbeeld definiëren als (int myInt, string myString, bool myBool). Dit maakt het gemakkelijker om de betekenis van elke waarde te begrijpen zonder naar de definitie van de tuple te hoeven kijken.
+
+Een overweging tegen een tuple is om een record te gebruiken. 
