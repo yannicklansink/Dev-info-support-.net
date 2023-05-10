@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms and Data Structures Course.md",
+                "file": "Blok 2/10-5-23/CRUD operaties.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b249ed83558ddd51",
+            "id": "07b2398d7324314f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Blok 2/10-5-23/Tuple types.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Blok 2/10-5-23/Tuple types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,10 +133,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b249ed83558ddd51",
+  "active": "07b2398d7324314f",
   "lastOpenFiles": [
-    "Algorithms and Data Structures Course.md",
+    "Blok 2/10-5-23/Snapshot van DbContext.md",
+    "Blok 2/10-5-23/Tuple types.md",
+    "Blok 2/10-5-23/Queries.md",
+    "Blok 2/10-5-23/CRUD operaties.md",
+    "Blok 2/10-5-23/Changetracker van DBContext.md",
     "conflict-files-obsidian-git.md",
+    "Blok 2/10-5-23",
+    "Blok 2",
+    "Algorithms and Data Structures Course.md",
     "Leetcode solutions.md",
     "test.md",
     "Data Science Football Project.md",
