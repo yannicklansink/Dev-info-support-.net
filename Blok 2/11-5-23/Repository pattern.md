@@ -1,4 +1,5 @@
-
+Dit is eigenlijk een data mapper
+Want je gebruikt een context in je methode.
 ```csharp
 public class SpelerRepository : ISpelerRepository
 {
@@ -34,3 +35,9 @@ public interface ISpelerRepository
 
     }
 ```
+
+## Data mapper vs repository
+- Data mapper blijft korter verbonden met de DB
+- Data mapper wordt soms ook repository genoemd, maar is het niet.
+- In praktijk wordt vaker de repository gebruikt.
+- context maak je niet meer in de methode, maar in de class zelf.
