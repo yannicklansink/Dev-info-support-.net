@@ -1,6 +1,17 @@
 
 ```csharp
 public class SpelerRepository : ISpelerRepository
+{
+	public void NieuweSpelerToevoegen(Speler speler)
+    {
+            using (var context = new BlackJackDbContext(_options))
+            {
+                context.Spelers.Add(speler); // Expliciet aangeven dat het om de Spelers tabel gaat
+                context.SaveChanges();
+            }
+    }
+}
+
 ```
 
 DAL = Data Acces Layer (Ook wel een DAO genoemd(Data Access Object))
