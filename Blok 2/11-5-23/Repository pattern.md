@@ -1,5 +1,6 @@
 Dit is eigenlijk een data mapper
 Want je gebruikt een context in je methode.
+Een repository is een class die alle logica bevat voor het werken met de database.
 ```csharp
 public class SpelerRepository : ISpelerRepository
 {
