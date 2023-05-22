@@ -13,17 +13,56 @@
     -   fixed vs responsive
     -   media queries
 
-
 #### css selectors
 	ul -> alle ul
 	div > p -> alle p van child div
 	div p -> alle p binnen een div
 	div, p -> alle p en alle div
 
-HTML sementic ele
+#### HTML sementic elements ordered most-used:
+1.  `<header>`
+2.  `<footer>`
+3.  `<nav>`
+4.  `<section>`
+5.  `<article>`
+6.  `<main>`
+7.  `<aside>`
+8.  `<figure>`
+9.  `<figcaption>`
+10.  `<mark>`
+11.  `<time>`
+12.  `<details>`
+13.  `<summary>`
+14.  `<table>`
+15.  `<thead>`
+16.  `<tbody>`
+17.  `<tfoot>`
+18.  `<tr>`
+19.  `<td>`
+20.  `<th>`
+21.  `<form>`
+22.  `<input>`
+23.  `<label>`
+24.  `<button>`
+25.  `<select>`
+26.  `<option>`
+27.  `<textarea>`
+28.  `<fieldset>`
+29.  `<legend>`
+30.  `<datalist>`
+31.  `<output>`
+32.  `<progress>`
+33.  `<meter>`
+34.  `<address>`
+35.  `<canvas>`
+36.  `<dialog>`
+37.  `<template>`
+38.  `<audio>`
+39.  `<video>`
 
-
-IdSelector
+#### IdSelector
 Als je het meerdere keren nodig heb voor JS
 Voor het linken van forms
+
+
 
