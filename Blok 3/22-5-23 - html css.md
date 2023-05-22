@@ -65,9 +65,9 @@ Als je het meerdere keren nodig heb voor JS
 Voor het linken van forms
 
 #### Javascript
--   Gebruik `const` standaard.
+-   Gebruik `const` standaard. Block scope, kan niet meer veranderen van waarde, behalve bij waarden binnen een object.
 -   Gebruik `let` als de variabele moet worden geherdefinieerd. Heeft een block scope
--   Vermijd `var`, tenzij het nodig is voor sommige oudere browsers die ES6 niet ondersteunen.
+-   Vermijd `var`, tenzij het nodig is voor sommige oudere browsers die ES6 niet ondersteunen. Function scope, global scope.
 
 
 
