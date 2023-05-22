@@ -20,6 +20,7 @@
 	div p -> alle p binnen een div
 	div, p -> alle p en alle div
 
+HTML sementic ele
 
 
 IdSelector
