@@ -14,3 +14,15 @@
     -   media queries
 
 
+#### css selectors
+	ul -> alle ul
+	div > p -> alle p van child div
+	div p -> alle p binnen een div
+	div, p -> alle p en alle div
+
+
+
+IdSelector
+Als je het meerdere keren nodig heb voor JS
+Voor het linken van forms
+
