@@ -64,5 +64,12 @@
 Als je het meerdere keren nodig heb voor JS
 Voor het linken van forms
 
+#### Javascript
+-   Gebruik `const` standaard.
+-   Gebruik `let` als de variabele moet worden geherdefinieerd. Heeft een block scope
+-   Vermijd `var`, tenzij het nodig is voor sommige oudere browsers die ES6 niet ondersteunen.
+
+
+
 
 
