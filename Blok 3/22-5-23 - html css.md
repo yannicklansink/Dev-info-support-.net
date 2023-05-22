@@ -69,7 +69,7 @@ Voor het linken van forms
 -   Gebruik `let` als de variabele moet worden geherdefinieerd. Heeft een block scope
 -   Vermijd `var`, tenzij het nodig is voor sommige oudere browsers die ES6 niet ondersteunen. Function scope, global scope.
 
-
-
+<!-- defer: JS code will be executed after html file is fully loaded -->
+<script src="script.js" defer></script>
 
 
