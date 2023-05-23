@@ -66,24 +66,29 @@ In html staat:
 1. We willen elk `article` meer 'volume' geven (ruimte direct rond de content). Hoe?
 
    a. article { padding: 10px; }
-	   .card { margin: 10px; } 
+	   .card { padding: 10px; } 
    b. section { padding: 10px; }\  
-	   
-   c. article { margin: 10px; }\  
+	   #toeslagen {padding:10px;}
+   c. article { margin: 10px; }
+	   .card { margin: 10px;}
    d. section { margin: 10px; }
-
+	   #toeslagen {margin;10px;}
+			
 1. Op welke 3 manieren kunnen we css koppelen zodat we een article kunnen opmaken?
+	1. inline css (minst aan te raden, wordt gebruikt bij frameworks vaak)
+	2. een style sheet toevoegen
+	3. internal css (niet aan te raden)
 
-1. Beschrijf het verschil tussen de CSS selectors:
+3. Beschrijf het verschil tussen de CSS selectors:
 
-   - `article.card`  
-   - `article`  
-   - `.card`
+   - `article.card`  selecteert alle article elementen met de class card
+   - `article`  selecteert aleen articles
+   - `.card` selecteert alleen card class
 
-1. Beschrijf het verschil tussen de CSS selectors:
+4. Beschrijf het verschil tussen de CSS selectors:
 
-   - `section>article`  
-   - `section article`
+   - `section>article`  selecteert alle article elementen die direct kinderen zijn van een section element
+   - `section article` selecteert alle article elementen die in de DOM zitten van alle sections.
 
 ---
 
@@ -92,20 +97,25 @@ In html staat:
 Ga naar <https://belastingen.arnhem.nl>.
 
 1. Als we de browser smaller maken worden de cards **Particulier** en **Bedrijf** onder elkaar getoond. Hoe heet deze wijze van design?
+	1. responsive design
 
 Open de Devtools en selecteer de kop **Bedrijf**. Kies het tabje _Styles_.
 
 1. Waar is de styling voor het `<h2>` element gedefinieerd? Klik op de link, het tabje _Sources_ wordt geopend. Bekijk de css en klik daarna weer op het tabje _Styles_.
+	1. in de style.css file
 
 Bekijk de card **Bedrijf**. Klik met de rechtermuisknop op de pagina en kies `View page source` (CTRL+U). Vind de html van het form **Bedrijf**.
 
 1. Waarom is het belangrijk dat een `<h2>` heading is gebruikt bij Bedrijf?  
-1. Waarom staat _U kunt hier namens het bedrijf inloggen._ in een `<p>` element?  
-1. Waarom wordt de class "login-form" gebruikt?  
-1. Leg de betekenis uit van alle attributen in het `<form>` element.  
-1. Waarom en hoe zijn er labels gebruikt?  
-1. Waarom staan `<label>` en `<input>` binnen een `<div>`?  
-1. Leg de betekenis uit van alle attributen in het `<input>` element.
+	1. voor structuur en hierarchie.
+2. Waarom staat _U kunt hier namens het bedrijf inloggen._ in een `<p>` element?  
+	1. Dat geeft het beste weer wat voor element het is
+3. Waarom wordt de class "login-form" gebruikt?  
+	1. Om de juiste benaming te 
+4. Leg de betekenis uit van alle attributen in het `<form>` element.  
+5. Waarom en hoe zijn er labels gebruikt?  
+6. Waarom staan `<label>` en `<input>` binnen een `<div>`?  
+7. Leg de betekenis uit van alle attributen in het `<input>` element.
 
 Open van deze website het bestand `style.css`.
 
