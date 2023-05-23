@@ -52,8 +52,6 @@ console.log(JSON.stringify(profile));
 
 // convert json to object
 const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
-
-// 
 ```
 
 Local Storage: Local Storage is een mechanisme in webbrowsers waarmee webapplicaties sleutel-waardeparen persistent kunnen opslaan op de client-side. De opgeslagen gegevens blijven behouden, zelfs nadat de browser is afgesloten en opnieuw geopend. De opslagcapaciteit van Local Storage is groter dan bij andere client-side opslagmogelijkheden zoals cookies en session storage. De gegevens blijven beschikbaar totdat ze expliciet worden verwijderd door de applicatie of door de gebruiker.
