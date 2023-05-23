@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode solutions.md",
+                "file": "Blok 3/23-05-23 - html css.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Leetcode solutions.md",
+                "file": "Blok 3/23-05-23 - html css.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,8 +120,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9b4426d6786ee8d9",
+  "active": "e462223bcb686e5a",
   "lastOpenFiles": [
+    "Leetcode solutions.md",
+    "Blok 3/23-05-23 - html css.md",
     "Blok 3/22-5-23 - html css.md",
     "Blok 3/1. Blok 3 intro.md",
     "Blok 3",
@@ -138,7 +140,6 @@
     "Algorithms and Data Structures Course.md",
     "Data Science Football Project.md",
     "Server-side programming.md",
-    "Leetcode solutions.md",
     "conflict-files-obsidian-git.md",
     "test.md",
     "Pasted image 20210827091629.png"
