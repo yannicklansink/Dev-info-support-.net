@@ -21,6 +21,7 @@ float:left; -> niet meer gebruiken
 	   | space-evenly | stretch | start | end | baseline | first baseline | 
 	   last baseline /*
 	/* gap: 10px; row-gap: 10px; column-gap: 20px; */
+	flex-flow: column wrap; /* De twee eigenschappen `flex-direction` en `flex-wrap` worden zodanig veel in combinatie met elkaar gebruikt */
 }
 ```
 
