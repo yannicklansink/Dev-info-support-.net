@@ -42,10 +42,31 @@ float:left; -> niet meer gebruiken
 
 #### JSON
 ```javascript
+const profile = {
+  name: 'Jane Doe',
+  'favorite-game': 'Stardew Valley',
+  subscriber: false
+}
+
+console.log(JSON.stringify(profile)); 
+
 // convert json to object
 const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
 
 // 
 ```
+
+Local Storage: Local Storage is een mechanisme in webbrowsers waarmee webapplicaties sleutel-waardeparen persistent kunnen opslaan op de client-side. De opgeslagen gegevens blijven behouden, zelfs nadat de browser is afgesloten en opnieuw geopend. De opslagcapaciteit van Local Storage is groter dan bij andere client-side opslagmogelijkheden zoals cookies en session storage. De gegevens blijven beschikbaar totdat ze expliciet worden verwijderd door de applicatie of door de gebruiker.
+
+Session Storage: Session Storage is een mechanisme in webbrowsers waarmee webapplicaties gegevens op de client-side kunnen opslaan, maar met een andere reikwijdte en levensduur dan Local Storage. Session Storage biedt een opslagruimte die specifiek is voor een bepaalde browsesessie. Gegevens die in Session Storage worden opgeslagen, blijven beschikbaar zolang het browservenster of tabblad geopend is. Zodra de browsesessie wordt beëindigd (door het sluiten van het venster of tabblad), worden de opgeslagen gegevens gewist en zijn ze niet langer toegankelijk. Session Storage is handig voor het tijdelijk opslaan van gegevens die alleen nodig zijn binnen de huidige sessie en die niet hoeven te worden behouden tussen verschillende bezoeken of browsersessies. Het biedt een eenvoudige interface voor het opslaan en ophalen van gegevens in de vorm van sleutel-waardeparen.
+
+access web storage:
+```js
+let myValue = window.localStorage.getItme('myKey');
+window.localStorage.setItem('myKey', 'myValue');
+window.localStorage.removeItem('myKey');
+window.localStorage.clear();
+```
+
 
 
