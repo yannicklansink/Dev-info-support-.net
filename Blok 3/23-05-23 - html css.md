@@ -33,11 +33,19 @@ float:left; -> niet meer gebruiken
 	
 }
 ```
-
+``` javascript
 <script src= "script.js">
 <script async src= "script.js">
 <script defer src= "script.js">
+```
 
 
+#### JSON
+```javascript
+// convert json to object
+const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}');
+
+// 
+```
 
 
