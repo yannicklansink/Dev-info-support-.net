@@ -34,8 +34,9 @@ float:left; -> niet meer gebruiken
 }
 ```
 
-
-
+<script src= "script.js">
+<script async src= "script.js">
+<script defer src= "script.js">
 
 
 
