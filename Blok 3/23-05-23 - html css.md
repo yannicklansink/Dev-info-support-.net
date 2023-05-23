@@ -20,8 +20,16 @@ float:left; -> niet meer gebruiken
 	/* align-content: flex-start | flex-end | center | space-between | space-around 
 	   | space-evenly | stretch | start | end | baseline | first baseline | 
 	   last baseline /*
-	/* gap: 10px; row-gap column gap row-gap: 10px; column-gap: 20px; */
+	/* gap: 10px; row-gap: 10px; column-gap: 20px; */
+}
+```
 
+``` css
+.childeren {
+	order: 5; /* default is 0 */
+	flex-grow: 4; /* This defines the ability for a flex item to grow if necessary. */
+	flex-shrink: 3; /* default 1 */
+	
 }
 ```
 
