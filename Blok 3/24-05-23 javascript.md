@@ -57,4 +57,6 @@ let ijsco; (type: undefined)
 statically typed: C#, java
 	variable is bekend bij het compileren
 dynamically typed: Python, JS
-	variable is bekend bij pas bij runtime
+	variable is bekend bij pas bij runtime en worden pas daar bepaalt.
+	kunnen op elk moment wijzigen
+
