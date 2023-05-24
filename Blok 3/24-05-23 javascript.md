@@ -52,3 +52,5 @@ NaN = Not a Number (date type: number)
 
 Falsey values: undefined, null, NaN, 0, "", false
 
+let ijsco; (type: undefined)
+
