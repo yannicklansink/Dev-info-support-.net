@@ -121,3 +121,16 @@ message = 'new message' // message is reassigned another value
 console.log(message); // new message
 
 ```
+
+#### template literal
+```js
+let text = `
+		hi there, 
+		thank you for everything
+`
+
+let count = 10,
+	price = 0.23,
+	message = `${count} is de prijs`
+```
+
