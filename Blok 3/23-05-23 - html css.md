@@ -60,7 +60,7 @@ Session Storage: Session Storage is een mechanisme in webbrowsers waarmee webapp
 
 access web storage:
 ```js
-let myValue = window.localStorage.getItme('myKey');
+let myValue = window.localStorage.getItem('myKey');
 window.localStorage.setItem('myKey', 'myValue');
 window.localStorage.removeItem('myKey');
 window.localStorage.clear();
