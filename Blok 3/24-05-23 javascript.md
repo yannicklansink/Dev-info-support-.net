@@ -33,3 +33,14 @@ Convert javascript oude code naar nieuwe javascript syntax.
 3. false
 4. true
 5. false
+6. '22'
+7. error
+8. 4.0
+9. ?
+10. ?
+11. ?
+12. null
+13. ?
+14. ?
+15. ?
+16. 
