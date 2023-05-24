@@ -48,4 +48,7 @@ Convert javascript oude code naar nieuwe javascript syntax.
 == | let niet op het type
 en === | let wel op het type
 
-NaN = Not a N
+NaN = Not a Number (date type: number)
+
+Falsey values: undefined, null, NaN, 0, "", false
+
