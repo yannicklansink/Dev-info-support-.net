@@ -43,4 +43,9 @@ Convert javascript oude code naar nieuwe javascript syntax.
 13. ?
 14. ?
 15. ?
-16. 
+
+
+== | let niet op het type
+en === | let wel op het type
+
+NaN = Not a N
