@@ -134,7 +134,17 @@ let count = 10,
 	message = `${count} is de prijs`
 ```
 
-#### regular expression
+#### for loops
 ```js
+const monitors = ['samsung', 'lg', 'oled hp']
 
+// for-in
+for (const monitor in monitors) {
+	console.log(monitor);
+}
+
+// for-
+for (const monitor in monitors) {
+	console.log(monitor);
+}
 ```
