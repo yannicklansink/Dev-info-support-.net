@@ -139,12 +139,16 @@ let count = 10,
 const monitors = ['samsung', 'lg', 'oled hp']
 
 // for-in
+// niet gebruiken voor array. Wel objecten.
+	// - is traag.
+	// - heeft geen volgorde, is random.
 for (const monitor in monitors) {
-	console.log(monitor);
+	console.log(monitor + monitors[monitor]);
 }
 
-// for-
-for (const monitor in monitors) {
+// for-of
+for (const monitor of monitors) {
 	console.log(monitor);
 }
 ```
+
