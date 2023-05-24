@@ -60,3 +60,40 @@ dynamically typed: Python, JS
 	variable is bekend bij pas bij runtime en worden pas daar bepaalt.
 	kunnen op elk moment wijzigen
 
+#### functions
+```js
+// function expression (anonymous)
+let plus = function (a, b) {
+	return a + b;
+}
+
+// untyped
+function add (a, b) {
+	return a + b;
+}
+```
+
+#### arrays
+```js
+// untyped
+let a = [1, true, 'long'];
+
+// extensible
+let first = a[0];
+a.title = 'list';
+a[3] - 'last';
+```
+
+#### classes
+```js
+class MagicCalculator {
+	magicMultiplier = 3.14;
+
+	calculate() {
+		
+	}
+}
+
+// annonymous classes.
+let Component = class { /*  */ }
+```
