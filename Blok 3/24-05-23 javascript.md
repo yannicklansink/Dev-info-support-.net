@@ -54,3 +54,7 @@ Falsey values: undefined, null, NaN, 0, "", false
 
 let ijsco; (type: undefined)
 
+statically typed: C#, java
+	variable is bekend bij het compileren
+dynamically typed: Python, JS
+	variable is bekend bij pas bij runtime
