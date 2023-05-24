@@ -106,3 +106,4 @@ x ? 2 : 3 -> ternary operator
 #### Built-in types
 ![[Pasted image 20230524132029.png]]
 
+shift + alt + up/down | duplicate line
