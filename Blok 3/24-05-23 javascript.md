@@ -27,3 +27,9 @@ Convert javascript oude code naar nieuwe javascript syntax.
 - transpiler(Babel) <- meest gebruikt.
 - transpiler is een speciaal soort type compiler
 
+#### Baseline assessment
+1. true
+2. true
+3. false
+4. true
+5. false
