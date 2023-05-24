@@ -134,3 +134,7 @@ let count = 10,
 	message = `${count} is de prijs`
 ```
 
+#### regular expression
+```js
+
+```
