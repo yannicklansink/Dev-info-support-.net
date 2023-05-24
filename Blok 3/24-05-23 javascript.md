@@ -107,3 +107,17 @@ x ? 2 : 3 -> ternary operator
 ![[Pasted image 20230524132029.png]]
 
 shift + alt + up/down | duplicate line
+
+#### string manipulation
+In [JavaScript](https://developer.mozilla.org/en-US/docs/Glossary/JavaScript), [primitive values](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) are immutable — once a primitive value is created, it cannot be changed, although the variable that holds it may be reassigned another value. By contrast, [objects](https://developer.mozilla.org/en-US/docs/Glossary/Object) and [arrays](https://developer.mozilla.org/en-US/docs/Glossary/Array) are mutable by default — their properties and elements can be changed without reassigning a new value.
+
+```js
+let message = 'this is a message'
+console.log(message.toUpperCase()); //THIS IS A MESSAGE
+console.log(message.substring(2,6)); // is i
+console.log(message.repeat(2)); // this is a messagethis is a message
+
+message = 'new message' // message is reassigned another value
+console.log(message); // new message
+
+```
