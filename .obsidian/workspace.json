@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blok 3/24-05-23 javascript.md",
+                "file": "Blok 2/10-5-23/CRUD operaties.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07b2398d7324314f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blok 3/22-5-23 - html css.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +71,7 @@
             }
           },
           {
-            "id": "a9dbc02ed561959e",
+            "id": "083d11a7d5007971",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "24b7a8f306f779b7",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blok 3/24-05-23 javascript.md",
+                "file": "Blok 3/22-5-23 - html css.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -121,30 +133,30 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e462223bcb686e5a",
+  "active": "da62a3b04099c619",
   "lastOpenFiles": [
     "Pasted image 20230524132029.png",
-    "Blok 3/23-05-23 - html css.md",
     "Blok 3/24-05-23 javascript.md",
-    "Blok 3/22-5-23 - html css.md",
-    "Leetcode solutions.md",
+    "Blok 3/23-05-23 - html css.md",
     "Blok 3/1. Blok 3 intro.md",
+    "Blok 3/22-5-23 - html css.md",
+    "Blok 2/11-5-23/Repository pattern.md",
     "Blok 3",
     "Blok 2/11-5-23/Testen.md",
-    "Blok 2/11-5-23/Repository pattern.md",
-    "Blok 2/10-5-23/Tuple types.md",
     "Blok 2/10-5-23/Snapshot van DbContext.md",
-    "Blok 2/10-5-23/Queries.md",
+    "Blok 2/10-5-23/Tuple types.md",
+    "Blok 2/11-5-23",
     "Blok 2/10-5-23/CRUD operaties.md",
     "Blok 2/10-5-23/Changetracker van DBContext.md",
-    "Blok 2/11-5-23",
+    "Blok 2/10-5-23/Queries.md",
+    "conflict-files-obsidian-git.md",
     "Blok 2/10-5-23",
     "Blok 2",
     "Algorithms and Data Structures Course.md",
-    "Data Science Football Project.md",
-    "Server-side programming.md",
-    "conflict-files-obsidian-git.md",
+    "Leetcode solutions.md",
     "test.md",
-    "Pasted image 20210827091629.png"
+    "Data Science Football Project.md",
+    "Pasted image 20210827091629.png",
+    "Server-side programming.md"
   ]
 }
