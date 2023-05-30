@@ -97,6 +97,10 @@ function telOp(...args) {
 }
 
 console.log(telOp(1, 2, 3))
+
+// spread
+const kleuren = ['rood', 'wit', 'blauw']
+const kleuren2 = [...kleuren], 'groen'; // copy array + add 'groen'
 ```
 
 
