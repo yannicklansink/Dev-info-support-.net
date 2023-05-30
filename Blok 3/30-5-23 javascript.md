@@ -89,6 +89,16 @@ elke javascript file begint met 'use strict'
 - With strict mode, you can not, for example, use undeclared variables.
 - Strict mode makes it easier to write "zekere" JavaScript.
 
+### variadic  function
+```js
+// rest argument
+function telOp(...args) {
+	return args.reduce((prev, elem) => prev + elem, 0) 
+}
+
+console.log(telOp(1, 2, 3))
+```
+
 
 
 
