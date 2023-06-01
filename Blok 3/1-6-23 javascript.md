@@ -59,3 +59,41 @@ Voordelen:
 - data encaptulatie
 
 Inner function heeft toegang tot de variables in de outer function, maar niet andersom.
+
+```js
+function createCustomer(id, name, city, nrOfUnpaidBills = 0) {
+    // let nrOfUnpaidBills = 0;
+    return {
+        id,
+        name,
+        city,
+        nrOfUnpaidBills() {
+            return nrOfUnpaidBills;
+        },
+        buyStuff() {
+            nrOfUnpaidBills++;
+        },
+        payBill() {
+            nrOfUnpaidBills--;
+        },
+        toString() {
+            return `id: ${this.id}\nname: ${this.name}\ncity: ${this.city}`;
+        },
+        badPlayer(numberObject) {
+            if (nrOfUnpaidBills >= numberObject.number) {
+                return true;
+            }
+            return false;
+        }
+    }
+}
+```
+
+
+### Default parameters
+```js
+functio makeRequest(url, timeout = 2000, callback = () => { }) {
+
+}
+```
+
