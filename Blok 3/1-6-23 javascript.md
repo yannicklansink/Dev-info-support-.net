@@ -54,3 +54,8 @@ function creatPerson(name, age) {
 }
 ```
 
+### Closure
+Voordelen:
+- data encaptulatie
+
+Inner function heeft toegang tot de variables in de outer function, maar niet andersom.
