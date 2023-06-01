@@ -4,12 +4,17 @@ spread operator on objects
 // copy van person 
 const obj1 = {...person, taal: 'Mandarijn'} 
 
-const product = {
+let product = {
 	id: 2,
 	titel: 'wasmand',
 }
+// muterende code
+product.titel = 'wasmandjes'; 
 
-product.titel = 'wasmandjes';
+// niet-muterende code. beter voor frameworks
+product = {...product, titel: 'wasmandjes2'};
+
+
 ```
 
 ### set- and getters
@@ -29,5 +34,23 @@ let watch = {
         return `Watch Model: ${this.model}\nColor: ${this.color}\nIn Stock: ${this.isInStock}\nPrice: ${this.price}`;
     },
 };
+```
+
+### Property initializer shorthand
+```js
+function creatPerson(name, age) {
+	return {
+		name,
+		age,
+	}
+}
+
+// zelfde als
+function creatPerson(name, age) {
+	return {
+		name = name;
+		age = age;
+	}
+}
 ```
 
