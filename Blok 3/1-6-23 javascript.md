@@ -97,3 +97,19 @@ functio makeRequest(url, timeout = 2000, callback = () => { }) {
 }
 ```
 
+### Destructuring
+```js
+let course1 = {
+	belasting: 'medium',
+	naam: 'Angular',
+	aantalDagen: 4,
+}
+
+const naam = course1.naam;
+const belasting = course1.belasting;
+const dagen = course1.aantalDagen;
+
+// kan ook met desctructuring!
+const { naam, belasting: moeilijkheidCursus, dagen } = course1;
+
+```
