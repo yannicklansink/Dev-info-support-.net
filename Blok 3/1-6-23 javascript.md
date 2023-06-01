@@ -103,13 +103,21 @@ let course1 = {
 	belasting: 'medium',
 	naam: 'Angular',
 	aantalDagen: 4,
+	trainers: ['Kees', 'JP']
 }
 
 const naam = course1.naam;
-const belasting = course1.belasting;
+const moeilijkheidCursus = course1.belasting;
 const dagen = course1.aantalDagen;
 
 // kan ook met desctructuring!
 const { naam, belasting: moeilijkheidCursus, dagen } = course1;
 
+
+//--------------------------
+
+const dieren = ['ezel', 'ara', 'slang']
+const [dier1, dier2] = dieren;
+
+let [ , trainer2 ] = course1.trainers 
 ```
