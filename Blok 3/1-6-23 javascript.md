@@ -119,5 +119,6 @@ const { naam, belasting: moeilijkheidCursus, dagen } = course1;
 const dieren = ['ezel', 'ara', 'slang']
 const [dier1, dier2] = dieren;
 
-let [ , trainer2 ] = course1.trainers 
+let [ , trainer2 ] = course1.trainers ;
+let { trainers: [, trainer2]} = course1;
 ```
