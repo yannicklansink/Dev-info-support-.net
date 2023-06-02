@@ -32,3 +32,7 @@ dit is beter voor:
 - functional purposes
 
 
+### Javascript testing
+jasmine -> test framework
+
+
