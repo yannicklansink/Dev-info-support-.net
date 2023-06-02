@@ -1,6 +1,7 @@
 ```js
 console.log('ik wordt geprint');
 let log = console.log;
+log('hello')
 ```
 
 ### Mysterien rondom 'this'
@@ -15,6 +16,7 @@ function chat() {
 ```
 
 ### ES Modules
+Een indeling van JavaScript-modules die de officiële standaardindeling is om JavaScript-code te verpakken voor hergebruik
 
 
 
