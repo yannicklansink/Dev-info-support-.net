@@ -41,7 +41,8 @@ const o = { a: 1, b: 2 };
 mySet1.add(o);
 
 mySet1.delete(1);
-const boolean = mySet1.has(5);
+const boolean = mySet1.has(5); // deletes 5
+set.clear(); // deletes everything
 
 // --------------------------
 for (const item of mySet1) {
@@ -68,7 +69,8 @@ for (const [key, value] of mySet1.entries()) {
 ### maps
 ```js
 // key value pairs
-// 
+// key is unique
+// use for ... of loop
 
 // implement map
 const map1 = new Map();
