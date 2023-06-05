@@ -83,4 +83,8 @@ console.log(map1.get('a'));
 // Expected output: 1
 
 map1.delete('b');
+
+map1.forEach((value, key) => {
+  console.log(`${key} = ${value}`);
+});
 ```
