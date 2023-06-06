@@ -9,6 +9,6 @@ ASP.NET Core:
 - ASP = server-side oplossingen
 - Voor het maken van Web Apps
 - Framework
-- Dynamisch HTML
+- Dynamisch HTML => Razor pages
 - REST APIs
 - microservices
