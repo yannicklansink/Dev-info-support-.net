@@ -3,6 +3,8 @@
 
 // iife functie
 // word uitgevoerd door de interperter direct
+immediately invoked function expression
+
 ```js
 (async () => {
     const dataResults = await haalOp();

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07b2398d7324314f",
+            "id": "5bf073165cea1e5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "083d11a7d5007971",
+            "id": "a9dbc02ed561959e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "24b7a8f306f779b7",
@@ -109,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -120,36 +120,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "07b2398d7324314f",
+  "active": "5bf073165cea1e5b",
   "lastOpenFiles": [
     "Blok 3/2-6-23 javascript.md",
-    "Blok 3/5-6-23 javascript.md",
-    "Blok 2/10-5-23/CRUD operaties.md",
     "Blok 3/Blok 3 intro.md",
-    "Blok 3/30-5-23 javascript.md",
-    "Blok 3/22-5-23 - html css.md",
-    "conflict-files-obsidian-git.md",
-    "Blok 3/Pasted image 20230530112109.png",
-    "Blok 3/Pasted image 20230524132029.png",
+    "Blok 3/5-6-23 javascript.md",
     "Blok 3/1-6-23 javascript.md",
-    "Pasted image 20230524132029.png",
+    "Blok 3/30-5-23 javascript.md",
     "Blok 3/24-05-23 javascript.md",
+    "Blok 3/Pasted image 20230530112109.png",
+    "New Text Document.txt",
+    "conflict-files-obsidian-git.md",
+    "Blok 3/Pasted image 20230524132029.png",
     "Blok 3/23-05-23 - html css.md",
-    "Blok 2/11-5-23/Repository pattern.md",
+    "Blok 3/22-5-23 - html css.md",
+    "Leetcode solutions.md",
+    "Blok 3/1. Blok 3 intro.md",
     "Blok 3",
     "Blok 2/11-5-23/Testen.md",
-    "Blok 2/10-5-23/Snapshot van DbContext.md",
+    "Blok 2/11-5-23/Repository pattern.md",
     "Blok 2/10-5-23/Tuple types.md",
-    "Blok 2/11-5-23",
-    "Blok 2/10-5-23/Changetracker van DBContext.md",
+    "Blok 2/10-5-23/Snapshot van DbContext.md",
     "Blok 2/10-5-23/Queries.md",
+    "Blok 2/10-5-23/CRUD operaties.md",
+    "Blok 2/10-5-23/Changetracker van DBContext.md",
+    "Blok 2/11-5-23",
     "Blok 2/10-5-23",
     "Blok 2",
     "Algorithms and Data Structures Course.md",
-    "Leetcode solutions.md",
-    "test.md",
     "Data Science Football Project.md",
-    "Pasted image 20210827091629.png",
-    "Server-side programming.md"
+    "Server-side programming.md",
+    "test.md",
+    "Pasted image 20210827091629.png"
   ]
 }
