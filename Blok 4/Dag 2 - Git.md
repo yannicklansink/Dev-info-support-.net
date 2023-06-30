@@ -20,3 +20,11 @@ Drie doelen:
 
 ### Git
 Gemaakt door: Linus Torvalds, in 2005
+
+Git commands die ik gebruik/ken:
+- init
+- add
+- commit
+- pull
+- push
+- clone
