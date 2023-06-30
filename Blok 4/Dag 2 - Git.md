@@ -1,5 +1,5 @@
 
-### Agenda
+## Agenda
 - Version Control
 - Git introduction
 - Installation & Configuration
@@ -12,13 +12,13 @@
 - Moving Around
 - Collaboration Models
 
-### Version Control
+## Version Control
 Drie doelen:
 - Mensen kunnen tegelijkertijd werken. Niet opeenvolgend.
 - Veranderingen in dezelfde file moeten niet leiden tot conflicten.
 - Archiveren van alle versies, zodat je weet wat er vorige week is gebeurd.
 
-### Git
+## Git
 Gemaakt door: Linus Torvalds, in 2005
 
 Git commands die ik gebruik/ken:
@@ -28,3 +28,8 @@ Git commands die ik gebruik/ken:
 - pull
 - push
 - clone
+
+#### Hashing
+- One way encryption
+
+Git hash function: SHA1 to encrypt text/binary data to hash of 40 characters
