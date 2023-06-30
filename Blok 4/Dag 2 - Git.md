@@ -18,3 +18,5 @@ Drie doelen:
 - Veranderingen in dezelfde file moeten niet leiden tot conflicten.
 - Archiveren van alle versies, zodat je weet wat er vorige week is gebeurd.
 
+### Git
+Gemaakt door: Linus Torvalds, in 2005
