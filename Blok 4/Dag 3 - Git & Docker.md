@@ -16,9 +16,14 @@ git tag v1.0 -> create new tag
 git tag -> lijst met tags
 
 ### States of Tracking
-untracked (als je een file toevoegd)
-unmodified 
-modified
-staged
+untracked (nadat je een file toevoegt)
+unmodified (na git commit) (zie je niet met git status)
+modified (na het wijzigen van een file)
+staged (als je git add .)
 
+git diff:
+zien wat je hebt toegevoegd.
 
+git reset:
+undo your code changes, om een fout op te lossen.
+git reset hashcode
