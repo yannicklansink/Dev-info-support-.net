@@ -59,15 +59,18 @@ Mogelijkheid voor maandelijkse abonnement.
 	- Gereserveerde resources
 - Standardized 
 - Easy to deploy 
-
+- 
 2 soorten containers:
 - linux container (hier werkt de wereld mee)
 - windows container
 
-Docker Registry:
+Je runt een container per proces
+
+### Docker Registry:
 soort github voor docker images.
 docker pull hello-world (will pull the image)
 
+### Docker commandos:
 docker ps -a (om alle processen te zien)
 docker images (om alle images te zien)
 docker rm (om een proces of container weg te gooien)
