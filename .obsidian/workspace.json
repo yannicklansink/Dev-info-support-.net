@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blok 4/Dag 2 - Git.md",
+                "file": "Blok 4/Dag 3 - Git & Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blok 4/Dag 2 - Git.md",
+                "file": "Blok 4/Dag 3 - Git & Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,8 +122,8 @@
   },
   "active": "5bf073165cea1e5b",
   "lastOpenFiles": [
-    "Blok 4/Dag 3.md",
     "Blok 4/Dag 2 - Git.md",
+    "Blok 4/Dag 3 - Git & Docker.md",
     "Untitled.md",
     "Blok 4",
     "Blok 3/6-6-23 asp net.md",
