@@ -77,3 +77,10 @@ Je runt een container
 Image is een blauwdruk om een container te runnen
 Een instantie. Zelfde als een class en object.
 
+### Docker ecosystem
+docker compose (meerdere images aan elkaar koppellen)
+ubuntu
+kubernetes
+trivy
+snyk...
+
