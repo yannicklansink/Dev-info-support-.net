@@ -64,5 +64,14 @@ Mogelijkheid voor maandelijkse abonnement.
 - linux container (hier werkt de wereld mee)
 - windows container
 
+Docker Registry:
+soort github voor docker images.
+docker pull hello-world (will pull the image)
+
+docker ps -a (om alle processen te zien)
+docker images (om alle images te zien)
+docker rm (om een proces of container weg te gooien)
+
+
 
 
