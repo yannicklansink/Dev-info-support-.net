@@ -1,5 +1,5 @@
 Kahoot quiz over git -> opsturen voor 10 uur naar email Nico
-
+## Git
 ### git switch vs git checkout:
 Met checkout kan je switchen, maar ook werk wat je lokaal hebt staan ongedaan maken.
 git checkout -- features/ziekenhuis.md
@@ -40,10 +40,22 @@ Gebruik github.com/github/gitignore
 .gitkeep file:
 Om lege folders toe te voegen aan git
 
-
 ### switch naar een vroegere commit
 git switch --detach hashcode
 Hierna moet je een branch maken, anders verlies je je werk als je aanpassingen doet.
 
+## Docker
+### Container
+- Isolated (bepaalde versie van db of dependencies)
+	- Eigen file systems
+	- Eigen processen
+	- Eigen netwerk
+	- Gereserveerde resources
+- Standardized 
+- Easy to deploy 
 
-### Docker
+2 soorten containers:
+- linux container (hier werkt de wereld mee)
+- windows container
+
+
