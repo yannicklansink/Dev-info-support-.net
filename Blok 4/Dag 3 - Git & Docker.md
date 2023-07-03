@@ -27,3 +27,11 @@ zien wat je hebt toegevoegd.
 git reset:
 undo your code changes, om een fout op te lossen.
 git reset hashcode
+git reset HEAD~1 (vanaf je HEAD 1 commit terug)
+
+git revert:
+de betere reset
+
+### .gitignore
+Je wilt in je source control geen build output hebben staan.
+Oplossing is door .gitignore file toe te voegen.
