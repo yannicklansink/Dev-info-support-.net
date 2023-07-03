@@ -6,5 +6,11 @@ git checkout -- features/ziekenhuis.md
 Hetzelfde als git restore .
 Dit checkout is oud en is een soort bug waar het voor 2 verschillende functionaliteiten zorgt.
 
+### Git merge strategieen:
 Git merge --squash branchname
-git commit
+git commit voordeel: lineaire geschiedenis en vaak netter.
+
+Git commit
+
+Git 
+
