@@ -37,3 +37,6 @@ Git hash function: SHA1 to encrypt text/binary data to hash of 40 characters
 Git pull:
 2 commandos in 1 -> git fetch and git merge
 Om van de main en origin/main te updaten
+
+Bare git repository:
+Is bedoeld om te worden gebruikt als een externe opslagplaats waar code wordt gedeeld tussen leden van het team. De kale Git-repo is niet bedoeld voor lokale ontwikkeling.
