@@ -15,5 +15,10 @@ Git commit
 git tag v1.0 -> create new tag
 git tag -> lijst met tags
 
+### States of Tracking
+untracked (als je een file toevoegd)
+unmodified 
+modified
+staged
 
 
