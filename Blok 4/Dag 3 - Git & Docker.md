@@ -44,7 +44,13 @@ Om lege folders toe te voegen aan git
 git switch --detach hashcode
 Hierna moet je een branch maken, anders verlies je je werk als je aanpassingen doet.
 
+-------------------------
+
 ## Docker
+
+Open source, since 2014, build once, run everywhere.
+Mogelijkheid voor maandelijkse abonnement.
+
 ### Container
 - Isolated (bepaalde versie van db of dependencies)
 	- Eigen file systems
@@ -57,5 +63,6 @@ Hierna moet je een branch maken, anders verlies je je werk als je aanpassingen d
 2 soorten containers:
 - linux container (hier werkt de wereld mee)
 - windows container
+
 
 
