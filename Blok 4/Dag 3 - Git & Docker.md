@@ -12,5 +12,8 @@ git commit voordeel: lineaire geschiedenis en vaak netter.
 
 Git commit
 
-Git 
+git tag v1.0 -> create new tag
+git tag -> lijst met tags
+
+
 
