@@ -44,3 +44,6 @@ Om lege folders toe te voegen aan git
 ### switch naar een vroegere commit
 git switch --detach hashcode
 Hierna moet je een branch maken, anders verlies je je werk als je aanpassingen doet.
+
+
+### Docker
