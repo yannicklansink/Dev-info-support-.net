@@ -35,3 +35,7 @@ de betere reset
 ### .gitignore
 Je wilt in je source control geen build output hebben staan.
 Oplossing is door .gitignore file toe te voegen.
+Gebruik github.com/github/gitignore
+
+.gitkeep file:
+Om lege folders toe te voegen aan git
