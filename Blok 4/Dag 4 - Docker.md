@@ -22,4 +22,8 @@ De github voor docker
 docker build -t (username)/
 
 ### Docker Compose
-docker-compos.yml
+docker-compose.yml
+`docker compose up` is een soort docker run
+`docker compose down` is een soort docker stop en remove in een
+
+
