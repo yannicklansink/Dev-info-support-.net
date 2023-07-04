@@ -15,7 +15,7 @@ Dan zet je 2 computers naast elkaar...
 
 
 ### Volumes
-
+Om vanuit 2 containers 1 local file uit te lezen.
 
 ### Docker Hub
 De github voor docker
