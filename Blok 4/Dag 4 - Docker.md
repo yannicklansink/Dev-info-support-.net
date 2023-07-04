@@ -6,3 +6,11 @@ Stack is geisoleert
 Heap is geisoleert
 - Multi Proces:
 Meerdere apps laten runnen.
+- Containerization:
+Operating system feature
+- Virtualization:
+Werd in het verleden gedaan. 
+- Hardware:
+Dan zet je 2 computers naast elkaar...
+
+
