@@ -18,4 +18,8 @@ Dan zet je 2 computers naast elkaar...
 
 
 ### Docker Hub
+De github voor docker
 docker build -t (username)/
+
+### Docker Compose
+docker-compos.yml
