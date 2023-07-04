@@ -15,3 +15,7 @@ Dan zet je 2 computers naast elkaar...
 
 
 ### Volumes
+
+
+### Docker Hub
+docker build -t (username)/
