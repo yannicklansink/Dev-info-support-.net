@@ -1,6 +1,7 @@
 azure-pipelines.yml
 ```yml
-
+#commet!
+app: admin-csonle
 ```
 
 ### Pipelines:
@@ -8,5 +9,18 @@ azure-pipelines.yml
 - Voor software compileren
 - Voor testen runnen
 
+Trigger -> Pipeline -> Stage -> Steps
 
-Azure Dev
+Artifact: 
+Gecompileerde code
+
+### Yaml
+YAML is a data serialization language
+- xml
+- json
+
+YAML Ain't Markup Language
+- not intended to be a markup language for document markup
+
+
+
