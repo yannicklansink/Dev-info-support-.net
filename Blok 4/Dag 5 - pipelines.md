@@ -3,5 +3,10 @@ azure-pipelines.yml
 
 ```
 
-Pipelines:
+### Pipelines:
 - Voor automatisering
+- Voor software compileren
+- Voor testen runnen
+
+
+Azure Dev
