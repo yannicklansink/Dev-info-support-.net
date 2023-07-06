@@ -11,6 +11,19 @@ services:
   deployed: false
 ```
 
+- Pipeline
+    - Stage A
+        - Job 1
+            - Step 1.1
+            - Step 1.2
+            - ...
+        - Job 2
+            - Step 2.1
+            - Step 2.2
+            - ...
+    - Stage B
+        - ...
+
 ### Pipelines:
 - Voor automatisering
 - Voor software compileren
