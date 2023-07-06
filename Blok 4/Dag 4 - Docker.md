@@ -48,3 +48,6 @@ docker-compose.yml
 ```
 
 -d == deamon
+
+dotnet  public -c Release (om het opnieuw te compileren)
+docker compose up --build (om een dotnet app opnieuw te runnen en builden)
