@@ -1,4 +1,5 @@
 azure-pipelines.yml
+[YAML schema reference | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines)
 ```yml
   #comment!
 services:
