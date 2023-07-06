@@ -1,7 +1,13 @@
 azure-pipelines.yml
 ```yml
-#commet!
-app: admin-csonle
+  #comment!
+services:
+ - app: admin-console
+  port: 7000
+  versions:
+  - 1.4
+  - 1.7
+  deployed: false
 ```
 
 ### Pipelines:
