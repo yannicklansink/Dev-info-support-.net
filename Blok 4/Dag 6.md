@@ -21,3 +21,8 @@ Voordeel:
 - Als er een teams lid wegvalt, vanwege ziekte, kan een ander teams lid de functie oppakken.
 - Betere communicatie door begrip.
 - Betere besluiten nemen door verschillende perspectieven.
+
+Wat je wilt vanuit een team lid (T-shaped):
+Generatlist:  Breed bekend met IT
+Specialist: Specifieke kennis van 1 ding
+
