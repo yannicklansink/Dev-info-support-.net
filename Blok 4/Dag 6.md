@@ -1,0 +1,1 @@
+Linten: checken of de code format juist is, zodat het niet compileert bij CI.
