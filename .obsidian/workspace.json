@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blok 4/Dag 5 - pipelines.md",
+                "file": "Blok 4/Dag 6.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "24b7a8f306f779b7",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blok 4/Dag 5 - pipelines.md",
+                "file": "Blok 4/Dag 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,8 +122,9 @@
   },
   "active": "5bf073165cea1e5b",
   "lastOpenFiles": [
-    "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 5 - pipelines.md",
+    "Blok 4/Dag 6.md",
+    "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 4 - Docker.md",
     "Blok 4/Dag 2 - Git.md",
     "Untitled.md",
@@ -156,7 +156,6 @@
     "Blok 2/10-5-23",
     "Blok 2",
     "Algorithms and Data Structures Course.md",
-    "Data Science Football Project.md",
     "Pasted image 20210827091629.png"
   ]
 }
