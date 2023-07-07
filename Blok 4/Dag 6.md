@@ -26,3 +26,10 @@ Wat je wilt vanuit een team lid (T-shaped):
 Generatlist:  Breed bekend met IT
 Specialist: Specifieke kennis van 1 ding
 
+Project Aristotle:
+onderzoek bij google, waarom er van heel veel teams, een paar teams de beste zijn. Dus best practices, 5 key dynamics:
+- Psychological Safety - veilige omgeving
+- Dependability - vertrouwen hebben in je teamleden 
+- Structure en Clarity - heel duidelijk doel (en afspraken)
+- Meaning - 
+- Impact - 
