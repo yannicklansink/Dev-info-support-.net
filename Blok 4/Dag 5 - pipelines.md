@@ -25,11 +25,16 @@ services:
         - ...
 
 ### Pipelines:
+Pipelines combineert continue integratie (CI) en continue levering (CD) om code te testen, bouwen en te leveren.
+
 - Voor automatisering
 - Voor software compileren
 - Voor testen runnen
 
 Trigger -> Pipeline -> Stage -> Steps
+
+### Pipeline Variables
+Met variabelen kan je belangrijke gegevens in verschillende delen van de pijplijn plaatsen. Het meest gebruikelijke gebruik van een variabele is het definiëren van een waarde die in een pijplijn kan worden gebruikt. Alle variabelen worden opgeslagen als tekenreeksen en kunnen tijdens runtime worden gewijzigd.
 
 Artifact: 
 Gecompileerde code
