@@ -13,3 +13,5 @@ Short-lived feature branches
 - Zonder story/branch
 - voordeel: geen merge hell
 - nadeel: niet werkende applicatie mag niet
+
+### Agile Software Engineering Practices
