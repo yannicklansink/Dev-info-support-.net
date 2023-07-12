@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blok 4/Dag 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,10 +119,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5bf073165cea1e5b",
+  "active": "9b4426d6786ee8d9",
   "lastOpenFiles": [
-    "Blok 4/Dag 5 - pipelines.md",
     "Blok 4/Dag 6.md",
+    "conflict-files-obsidian-git.md",
+    "Blok 4/Dag 5 - pipelines.md",
     "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 4 - Docker.md",
     "Blok 4/Dag 2 - Git.md",
@@ -138,7 +138,6 @@
     "Blok 3/24-05-23 javascript.md",
     "Blok 3/Pasted image 20230530112109.png",
     "New Text Document.txt",
-    "conflict-files-obsidian-git.md",
     "Blok 3/Pasted image 20230524132029.png",
     "Blok 3/23-05-23 - html css.md",
     "Blok 3/22-5-23 - html css.md",
