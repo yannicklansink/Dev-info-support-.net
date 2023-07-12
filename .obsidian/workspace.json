@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blok 4/Dag 6.md",
+                "file": "Blok 4/Dag 2 - Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blok 4/Dag 2 - Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,14 +120,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9b4426d6786ee8d9",
+  "active": "5bf073165cea1e5b",
   "lastOpenFiles": [
-    "Blok 4/Dag 6.md",
-    "conflict-files-obsidian-git.md",
-    "Blok 4/Dag 5 - pipelines.md",
     "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 4 - Docker.md",
+    "Blok 4/Dag 5 - pipelines.md",
+    "Blok 4/Dag 6.md",
     "Blok 4/Dag 2 - Git.md",
+    "Blok 4/Dag 7.md",
+    "conflict-files-obsidian-git.md",
     "Untitled.md",
     "Blok 4",
     "Blok 3/6-6-23 asp net.md",
@@ -154,7 +156,6 @@
     "Blok 2/11-5-23",
     "Blok 2/10-5-23",
     "Blok 2",
-    "Algorithms and Data Structures Course.md",
     "Pasted image 20210827091629.png"
   ]
 }
