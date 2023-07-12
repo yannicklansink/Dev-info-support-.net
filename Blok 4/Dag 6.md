@@ -16,7 +16,7 @@ Short-lived feature branches
 
 ### Agile Software Engineering Practices
 #### Multidisciplinary teams:
-Je moet als teams lid meerder rollen kunne opnemen en uitvoeren. Een coder moet ook kunnen testen of designs maken. 
+Je moet als teams lid meerder rollen kunnen opnemen en uitvoeren. Een coder moet ook kunnen testen of designs maken. 
 Voordeel:
 - Als er een teams lid wegvalt, vanwege ziekte, kan een ander teams lid de functie oppakken.
 - Betere communicatie door begrip.
