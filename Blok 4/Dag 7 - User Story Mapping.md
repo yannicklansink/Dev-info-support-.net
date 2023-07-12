@@ -6,8 +6,6 @@ Helpt bij het probleem:
 - We verspillen veel tijd aan onnodige features 
 	- YAGNI: You Ain't Gonna Need It | WASTE
 
-
-
 Activities:  
 	hoog niveau van abstractie
 Steps: 
@@ -16,3 +14,5 @@ Tasks:
 	Stappen zijn onderdelen van een activiteit. Ze geven een gedetailleerder beeld van wat er nodig is om een activiteit te voltooien.
 Slice: 
 	horizontale doorsnede door de story map. Deze slice omvat een coherent stuk functionaliteit dat door het ontwikkelteam in één iteratie kan worden ontwikkeld en geleverd.
+
+
