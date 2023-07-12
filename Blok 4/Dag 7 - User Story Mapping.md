@@ -16,3 +16,5 @@ Slice:
 	horizontale doorsnede door de story map. Deze slice omvat een coherent stuk functionaliteit dat door het ontwikkelteam in één iteratie kan worden ontwikkeld en geleverd.
 
 
+PO conference:
+- vragen stellen over de applicatie dat gebouwd moet worden
