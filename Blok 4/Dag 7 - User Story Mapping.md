@@ -8,4 +8,11 @@ Helpt bij het probleem:
 
 
 
+Activities:  
+	hoog niveau van abstractie
+Steps: 
+	Stappen zijn onderdelen van een activiteit. Ze geven een gedetailleerder beeld van wat er nodig is om een activiteit te voltooien.
+Tasks: 
+	Stappen zijn onderdelen van een activiteit. Ze geven een gedetailleerder beeld van wat er nodig is om een activiteit te voltooien.
+Slice: 
 
