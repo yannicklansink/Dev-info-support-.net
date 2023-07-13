@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "108fefcc04f6b225",
+        "id": "97a4e64812410be2",
         "type": "tabs",
         "children": [
           {
-            "id": "b57bd3792b3b6676",
+            "id": "07b2398d7324314f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "a9dbc02ed561959e",
+            "id": "083d11a7d5007971",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
     "id": "24b7a8f306f779b7",
@@ -109,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -120,42 +120,42 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b57bd3792b3b6676",
+  "active": "07b2398d7324314f",
   "lastOpenFiles": [
-    "Algorithms and Data Structures Course.md",
     "Blok 4/Dag 6.md",
     "Blok 4/Dag 7 - User Story Mapping.md",
-    "Blok 3/Pasted image 20230524132029.png",
-    "Blok 4/Dag 2 - Git.md",
+    "conflict-files-obsidian-git.md",
     "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 4 - Docker.md",
     "Blok 4/Dag 5 - pipelines.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
+    "Blok 4/Dag 2 - Git.md",
+    "Blok 3/5-6-23 javascript.md",
     "Blok 4",
     "Blok 3/6-6-23 asp net.md",
-    "Blok 3/5-6-23 javascript.md",
     "Blok 3/2-6-23 javascript.md",
+    "Blok 2/10-5-23/CRUD operaties.md",
     "Blok 3/Blok 3 intro.md",
-    "Blok 3/1-6-23 javascript.md",
     "Blok 3/30-5-23 javascript.md",
-    "Blok 3/24-05-23 javascript.md",
-    "Blok 3/Pasted image 20230530112109.png",
-    "New Text Document.txt",
-    "Blok 3/23-05-23 - html css.md",
     "Blok 3/22-5-23 - html css.md",
-    "Leetcode solutions.md",
-    "Blok 3/1. Blok 3 intro.md",
+    "Blok 3/Pasted image 20230530112109.png",
+    "Blok 3/Pasted image 20230524132029.png",
+    "Blok 3/1-6-23 javascript.md",
+    "Pasted image 20230524132029.png",
+    "Blok 3/24-05-23 javascript.md",
+    "Blok 3/23-05-23 - html css.md",
+    "Blok 2/11-5-23/Repository pattern.md",
     "Blok 3",
     "Blok 2/11-5-23/Testen.md",
-    "Blok 2/11-5-23/Repository pattern.md",
-    "Blok 2/10-5-23/Tuple types.md",
     "Blok 2/10-5-23/Snapshot van DbContext.md",
-    "Blok 2/10-5-23/Queries.md",
-    "Blok 2/10-5-23/CRUD operaties.md",
+    "Blok 2/10-5-23/Tuple types.md",
     "Blok 2/11-5-23",
+    "Blok 2/10-5-23/Changetracker van DBContext.md",
+    "Blok 2/10-5-23/Queries.md",
     "Blok 2/10-5-23",
     "Blok 2",
+    "Algorithms and Data Structures Course.md",
+    "Leetcode solutions.md",
+    "test.md",
     "Pasted image 20210827091629.png"
   ]
 }
