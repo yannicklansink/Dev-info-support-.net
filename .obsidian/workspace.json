@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blok 4/Dag 7 - User Story Mapping.md",
+                "file": "Blok 4/CASE.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blok 4/Dag 7 - User Story Mapping.md",
+                "file": "Blok 4/CASE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,8 +122,9 @@
   },
   "active": "07b2398d7324314f",
   "lastOpenFiles": [
-    "Blok 4/Dag 6.md",
     "Blok 4/Dag 7 - User Story Mapping.md",
+    "Blok 4/CASE.md",
+    "Blok 4/Dag 6.md",
     "conflict-files-obsidian-git.md",
     "Blok 4/Dag 3 - Git & Docker.md",
     "Blok 4/Dag 4 - Docker.md",
@@ -155,7 +156,6 @@
     "Blok 2",
     "Algorithms and Data Structures Course.md",
     "Leetcode solutions.md",
-    "test.md",
     "Pasted image 20210827091629.png"
   ]
 }
