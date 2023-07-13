@@ -18,3 +18,6 @@ Slice:
 
 PO conference:
 - vragen stellen over de applicatie dat gebouwd moet worden
+
+Product backlog:
+- geprioriteerde lijst met functionaliteit die een product zou moeten bevatten
