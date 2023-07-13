@@ -4,7 +4,7 @@ ADO = Azure DevOps
 ADO Pipepline
 Pull Requests
 Samenwerken
-ADO Backlog
+ADO Backlog : ✔
 Docker & Docker compose
 Scrum
 Story Map
