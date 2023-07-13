@@ -13,3 +13,8 @@ Sprints van 3 uur
 - Retrospective
 
 Maak slices van (ong) 3 uur
+
+
+Git pull (in master)
+git switch -b
+git merge master
