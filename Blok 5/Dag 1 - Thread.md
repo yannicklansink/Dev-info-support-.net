@@ -74,3 +74,8 @@ lock(x)
 	// execute statements in lock
 }
 ```
+
+.NET class BackgroundWorker
+Voor situaties als je dingen op de achte
+3 Events:
+- DoWork
