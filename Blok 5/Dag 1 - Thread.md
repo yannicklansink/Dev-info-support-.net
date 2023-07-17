@@ -8,6 +8,7 @@ Wissel tussen de processen. Dit is duur. Door threading hoeft er geen context sw
 
 ### Threads:
 Thread kunnen met elkaar communiceren en hebben hetzelfde adres.
+Hebben dezelfde heap, maar eigen stack.
 
 ### Pagen:
 Het wegschrijven van interne geheugen naar de harde schijf, om plek vrij te maken voor nieuwe processen. Dit gebeurt veel als je weinig RAM hebt. 
@@ -19,4 +20,11 @@ Het wegschrijven van interne geheugen naar de harde schijf, om plek vrij te make
 	- Globaal geheugen
 	- Stack geheugen
 	- Heap geheugen
+- Registers
+	- Zit op de processor (cpu)
+	- Soort werkgeheugen van de processor
+	- Program Counter (PC) -> wijst naar de volgende instructie. Pointer. (thread zorgt voor extra PC)
+	- Stack Pointer (SP) -> wijst naar de stack. (thread zorgt voor extra SP)
+- Resources
+	- Externe dingen die je gebruikt. Bijv. een file die je opent.
 
