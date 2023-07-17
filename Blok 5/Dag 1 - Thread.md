@@ -31,3 +31,10 @@ Het wegschrijven van interne geheugen naar de harde schijf, om plek vrij te make
 Nadeel multithreading:
 - Het kan 100.000 keer goed gaan, maar dan 1 keer fout. Moeilijk debuggen.
 - Dit komt door gedeelte data tussen threads.
+
+Stack bevat:
+- Lokale variabelen
+- Parameters
+- Return adres
+- Return value (functie die een waarde retourneert)
+
