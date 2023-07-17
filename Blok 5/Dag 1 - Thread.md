@@ -75,7 +75,9 @@ lock(x)
 }
 ```
 
-.NET class BackgroundWorker
-Voor situaties als je dingen op de achte
+### .NET class BackgroundWorker
+Voor situaties als je dingen op de achtergrond wilt runnen. Resultaat wordt in Result property gezet.
 3 Events:
 - DoWork
+- ProgressChanged
+- RunWorkerCompleted
