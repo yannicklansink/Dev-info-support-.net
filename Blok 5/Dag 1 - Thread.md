@@ -68,3 +68,5 @@ Methodes
 - Interrupt() (Soort eindigen, betere manier. Zorgt voor een exception in the thread)
 
 
+Object x = new Object();
+lock(x);
