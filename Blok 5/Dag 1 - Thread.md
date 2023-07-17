@@ -28,3 +28,6 @@ Het wegschrijven van interne geheugen naar de harde schijf, om plek vrij te make
 - Resources
 	- Externe dingen die je gebruikt. Bijv. een file die je opent.
 
+Nadeel multithreading:
+- Het kan 100.000 keer goed gaan, maar dan 1 keer fout. Moeilijk debuggen.
+- Dit komt door gedeelte data tussen threads.
