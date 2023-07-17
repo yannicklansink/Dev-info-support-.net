@@ -61,5 +61,10 @@ Properties in thread class:
 - IsThreadPoolThread
 - ManagedThreadId
 - ThreadState
+Methodes
+- Start()
+- Join()
+- Abort() (Nooit gebruiken, want thread is bezig met data. Data krijg je daardoor niet meer in geldige toestand)
+- Interrupt() (Soort eindigen, betere manier. Zorgt voor een exception in the thread)
 
 
