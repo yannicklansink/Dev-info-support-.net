@@ -67,6 +67,10 @@ Methodes
 - Abort() (Nooit gebruiken, want thread is bezig met data. Data krijg je daardoor niet meer in geldige toestand)
 - Interrupt() (Soort eindigen, betere manier. Zorgt voor een exception in the thread)
 
-
+```cs
 Object x = new Object();
-lock(x);
+lock(x) 
+{
+	// execute statements in lock
+}
+```
