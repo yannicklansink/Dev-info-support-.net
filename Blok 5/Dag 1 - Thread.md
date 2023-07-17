@@ -48,3 +48,18 @@ Stack bevat:
 I/O bound: Vaak aan het wachten op gebruikers. Threading helpt hierbij voor performance
 CPU bound: Veel rekenwerk, de processor is nodig in volle capaciteit. Threading helpt niet hierbij voor performance
 
+Why multithreading:
+- More tasks than cores -> threading for scheduling
+- More cores than tasks -> threading for parallelism (voor het trainen van een AI bijv.)
+
+### .NET thread is een class
+- thread class creates a windows thread when using start()
+Properties in thread class:
+- Name
+- Property (je kan thread andere prioriteit geven om het belang aan te geven per thread)
+- IsBackground
+- IsThreadPoolThread
+- ManagedThreadId
+- ThreadState
+
+
