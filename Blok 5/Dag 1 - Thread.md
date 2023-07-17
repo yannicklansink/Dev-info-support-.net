@@ -38,3 +38,13 @@ Stack bevat:
 - Return adres
 - Return value (functie die een waarde retourneert)
 
+--------------------------------------
+
+### Agenda
+- Threads
+- Tasks
+- Async and await
+
+I/O bound: Vaak aan het wachten op gebruikers. Threading helpt hierbij voor performance
+CPU bound: Veel rekenwerk, de processor is nodig in volle capaciteit. Threading helpt niet hierbij voor performance
+
