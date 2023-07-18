@@ -54,6 +54,7 @@ int numberOfFinishedTasks = Task.WaitAny(tasks, 10000);
 UI elements can only be accessed on the thread they were created on (which is usually the UI thread).
 
 ### Parallel class
+CPU-bound operatie.
 impliciet van Task class.
 Dit doe je alleen maar als je meer cores hebt dan taken.
 ```cs
