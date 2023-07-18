@@ -49,3 +49,7 @@ int numberOfFinishedTasks = Task.WaitAny(tasks, 10000);
     
     This line atomically increments the value of `numberOfCalculations` by one. It's similar to writing `numberOfCalculations++`, but `Interlocked.Increment` ensures that the operation is completed atomically. This is necessary to prevent the same kind of race condition that I explained above. If two threads simultaneously read the value of `numberOfCalculations`, increment it, and write it back, the value could end up being incremented by one instead of two.
 
+`TaskScheduler.FromCurrentSynchronizationContext()` returns a `TaskScheduler` that targets the synchronization context of the UI thread. This allows tasks to be scheduled on the UI thread.
+
+UI elements can only be accessed on the thread they were created on (which is usually the UI thread).
+
