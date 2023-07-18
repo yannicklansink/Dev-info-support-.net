@@ -55,12 +55,13 @@ UI elements can only be accessed on the thread they were created on (which is us
 
 ### Parallel class
 impliciet van Task class.
+Dit doe je alleen maar als je meer cores hebt dan taken.
 ```cs
 for (int i = 0; index < 5; index++)
 {
 	Process(index);
 }
 
-Parallel.For(0,5, (index) => Porcess(index))
+Parallel.For(0,5, (index) => Process(index))
 ```
 
