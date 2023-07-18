@@ -36,6 +36,7 @@ Task[] tasks = new Task[]
 	Task.Run(() => DoSomething2()), 
 }; 
 // Task.WaitAny(tasks);
+// Task.WhenALl(tasks).ContinueWith(() => ..., TaskScheduler.FromCurrentSynchronizationContext());
 Task.WaitAll(tasks, 5000); 
 int numberOfFinishedTasks = Task.WaitAny(tasks, 10000);
 ```
