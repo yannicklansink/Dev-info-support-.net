@@ -6,6 +6,9 @@ Een proces heeft geen invloed op andere processen.
 ### Context switch:
 Wissel tussen de processen. Dit is duur. Door threading hoeft er geen context switch worden gedaan. 
 
+### Thread switch:
+Veel efficiënter aangezien je alleen de Program Counter (PC), registers en Stack Pointers (SP).
+
 ### Threads:
 Thread kunnen met elkaar communiceren en hebben hetzelfde adres.
 Hebben dezelfde heap, maar eigen stack.
