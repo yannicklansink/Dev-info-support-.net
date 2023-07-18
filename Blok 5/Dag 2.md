@@ -15,6 +15,7 @@ Zodra je met lambdas werkt met locale variabelen moet je uitkijken wat je doet. 
 	- Explicit en Implicit
 
 ### Task
+Task kan return waarden heeft.
 ```cs
 Task<int> task = new Task<int>(() =>
 	{
@@ -27,5 +28,15 @@ task.Start();
 Console.WriteLine(task.Result);
 ```
 
-Task kan return waarden heeft.
+Meerdere tasks
+```cs
+Task[] tasks = new Task[] 
+{ 
+	Task.Run(() => DoSomething()),
+	Task.Run(() => DoSomething2()), 
+}; 
+// Task.WaitAny(tasks);
+Task.WaitAll(tasks, 5000); 
+int numberOfFinishedTasks = Task.WaitAny(tasks, 10000);
+```
 
