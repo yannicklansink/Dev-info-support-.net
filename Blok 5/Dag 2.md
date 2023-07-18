@@ -41,3 +41,11 @@ Task.WaitAll(tasks, 5000);
 int numberOfFinishedTasks = Task.WaitAny(tasks, 10000);
 ```
 
+1. `Interlocked.Add(ref totalResult, result);`
+    
+    This line atomically adds the value of `result` to `totalResult`. In other words, it ensures that the operation (`totalResult += result`) is completed in an atomic manner. This means that once a thread starts this operation, no other thread can interrupt it until it's finished. This is important in a multi-threaded environment, as without atomic operations, one thread could read the value of `totalResult`, then another thread could change `totalResult`, and then the first thread could write back the old value it read plus `result`, thereby disregarding the change made by the second thread. This scenario is known as a race condition.
+    
+2. `int calculatedCount = Interlocked.Increment(ref numberOfCalculations);`
+    
+    This line atomically increments the value of `numberOfCalculations` by one. It's similar to writing `numberOfCalculations++`, but `Interlocked.Increment` ensures that the operation is completed atomically. This is necessary to prevent the same kind of race condition that I explained above. If two threads simultaneously read the value of `numberOfCalculations`, increment it, and write it back, the value could end up being incremented by one instead of two.
+
