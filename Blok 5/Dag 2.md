@@ -65,3 +65,6 @@ for (int i = 0; index < 5; index++)
 Parallel.For(0,5, (index) => Process(index))
 ```
 
+loopState.Break();
+loopState.Stop();
+
