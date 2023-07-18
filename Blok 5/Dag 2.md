@@ -74,11 +74,17 @@ Parallel vorm van LINQ.
 Wellicht verbeterd het de execution snelheid.
 
 ```cs
-var result = from n in Enumerable.Range(1, 1000).AsParallel()
+var result = from n in Enumerable.Range(1, 1000)
+								 .AsParallel()
+								 .AsOrder()
 			 where n % 3 == 0
 			 select n;
-foreach (int i in result) 
+
+result.ForAll(i => 
 {
 	cwl($"{i}, {Thread.CurrentThread.ManagedThreadId}");
-}
+});
+
+
 ```
+
