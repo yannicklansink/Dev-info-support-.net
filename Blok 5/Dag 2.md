@@ -16,11 +16,16 @@ Zodra je met lambdas werkt met locale variabelen moet je uitkijken wat je doet. 
 
 ### Task
 ```cs
-Task task = new Task(
-	() =>
+Task<int> task = new Task<int>(() =>
 	{
 		Console.WriteLine("Working");
+		return 42;
 	}
 );
 task.Start();
+
+Console.WriteLine(task.Result);
 ```
+
+Task kan return waarden heeft.
+
