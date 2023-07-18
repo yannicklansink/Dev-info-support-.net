@@ -69,3 +69,16 @@ Parallel.For(0,5, (index) => Process(index))
 loopState.Break();
 loopState.Stop();
 
+### PLINQ
+Parallel vorm van LINQ.
+Wellicht verbeterd het de execution snelheid.
+
+```cs
+var result = from n in Enumerable.Range(1, 1000).AsParallel()
+			 where n % 3 == 0
+			 select n;
+foreach (int i in result) 
+{
+	cwl($"{i}, {Thread.CurrentThread.ManagedThreadId}");
+}
+```
