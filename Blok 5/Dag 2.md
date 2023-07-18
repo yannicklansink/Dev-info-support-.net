@@ -6,3 +6,21 @@ Zodra je met lambdas werkt met locale variabelen moet je uitkijken wat je doet. 
 	-  Oplossing => threadpool
 - Creeer niet je eigen thread, maar stuur het naar de threadpool
 	- ThreadPool.QueueUserWorkItem(o => );
+
+
+### Task Parallel Library (TPL)
+- Extension voor de ThreadPool
+- Welke taken maak je aan.
+- Task kunnen worden gebruiken:
+	- Explicit en Implicit
+
+### Task
+```cs
+Task task = new Task(
+	() =>
+	{
+		Console.WriteLine("Working");
+	}
+);
+task.Start();
+```
