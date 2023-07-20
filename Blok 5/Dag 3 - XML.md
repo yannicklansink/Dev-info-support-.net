@@ -1,0 +1,1 @@
+Asympotische dominatie -> algo
