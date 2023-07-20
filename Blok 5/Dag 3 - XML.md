@@ -41,7 +41,8 @@ Regels:
 - XML is case sensitive
 
 Encoding in XML betekent
-- de character set -> geeft aan welke character je mag gebruiken "UTF-8", "UTF-16"...
+- de character set -> geeft aan welke character je mag gebruiken "UTF-8", "UTF-16"
+	- UTF-8 is het default
 - encoding -> 
 
 
