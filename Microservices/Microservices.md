@@ -6,3 +6,5 @@ Voordelen:
 - Can be built using different technologies
 - Resilient: 1 service can break, the other keeps running
 - Scalable: You can scale out only the services you need to
+- Built to be replaceable
+
