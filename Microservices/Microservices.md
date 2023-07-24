@@ -20,3 +20,14 @@ kubectl get pods
 kubectl get deployments
 ```
 
+### .NET CLI commands
+```cli
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.InMemory
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+dotnet remove package Microsoft.EntityFrameworkCore.InMemory   
+```
+
