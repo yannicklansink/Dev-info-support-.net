@@ -27,6 +27,13 @@ kubectl delete deployment platforms-depl
 
 kubectl get pods
 kubectl get deployments
+
+# will cause Kubernetes to gradually replace the existing Pods of the "platforms-# depl" Deployment with new ones.
+# the recently built new pushed docker image will 
+# cause Kubernetes to pull the new image and update the Pods 
+# in Deployment one by one, ensuring that the application remains 
+# available during the update process.
+kubectl rollout restart deployment platforms-depl
 ```
 
 ### .NET CLI commands
