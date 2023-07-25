@@ -8,6 +8,15 @@ Voordelen:
 - Scalable: You can scale out only the services you need to
 - Built to be replaceable
 
+### Docker
+```bash
+docker build -t yannicklansink/commandservice .
+
+docker run -p 8080:80 -d yannicklansink/commandservice
+
+docker push  yannicklansink/commandservice
+```
+
 ### Kubernetes
 Voor het beheer van containerized applicaties (bijv. een docker container) te automatiseren en te vergemakkelijken. 
 
