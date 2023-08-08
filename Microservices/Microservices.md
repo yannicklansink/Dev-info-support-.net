@@ -26,6 +26,7 @@ commands:
 # -f specifies a file path follows after
 kubectl apply -f platforms-depl.yaml
 kubectl delete deployment platforms-depl
+kubectl delete deployment ingress-nginx-controller -n ingress-nginx
 
 kubectl get pods
 kubectl get deployments
