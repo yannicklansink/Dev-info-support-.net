@@ -22,6 +22,7 @@ Voor het beheer van containerized applicaties (bijv. een docker container) te au
 
 commands:
 ```bash
+# -f specifies a file path follows after
 kubectl apply -f platforms-depl.yaml
 kubectl delete deployment platforms-depl
 
