@@ -49,3 +49,4 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools
 dotnet remove package Microsoft.EntityFrameworkCore.InMemory   
 ```
 
+### Ingress Nginx controller
