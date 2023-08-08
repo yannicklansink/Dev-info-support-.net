@@ -50,3 +50,8 @@ dotnet remove package Microsoft.EntityFrameworkCore.InMemory
 ```
 
 ### Ingress Nginx controller
+#### What is an Ingress in Kubernetes?
+In Kubernetes, an **Ingress** is an object that manages external access to services within a cluster. This typically involves HTTP and HTTPS routes to services. You can think of it as a layer that sits in front of your services to handle external traffic and route it to the appropriate services inside the cluster based on rules you define.
+#### Why the Ingress Nginx Controller?
+While Ingress is a standard Kubernetes object, Kubernetes itself doesn't handle the actual traffic routing – that job is handed off to something else, called an Ingress controller. There are multiple Ingress controllers available, and **Nginx Ingress Controller** is one of the most popular.
+When you deploy the Nginx Ingress Controller, it deploys an Nginx instance to your cluster that dynamically configures itself based on your Ingress objects.
