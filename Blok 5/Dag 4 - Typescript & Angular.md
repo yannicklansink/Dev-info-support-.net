@@ -50,3 +50,5 @@ date: {{date | date:'dd MMM yy' }}
 2. `app.component.ts`: Also known as the class, contains the logic for the application's main page.
 3. `app.component.html`: Contains the HTML for `AppComponent`. The contents of this file are also known as the template. The template determines the view or what you see in the browser.
 4. `app.component.css`: Contains the styles for `AppComponent`. You use this file when you want to define styles that only apply to a specific component, as opposed to your application overall.
+
+Jasmine is the standard test framework in angular
