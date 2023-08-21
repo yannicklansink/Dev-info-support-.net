@@ -36,7 +36,8 @@ SSG - Static Site Generator
 - ng serve - lokaal web server opstarten met jouw gecompileerde code 
 
 ### Component:
-Herbruikbaar stuk code
+Herbruikbaar stuk code.
+Componenten zijn de bouwstenen van een Angular-applicatie. Een component bevat een TypeScript-class met een @Component() decorator.
 
 ### Pipes in angular:
 - date
