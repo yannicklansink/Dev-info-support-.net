@@ -35,3 +35,11 @@ SSG - Static Site Generator
 - ng test --code-coverage - run unittest met coverage
 - ng serve - lokaal web server opstarten met jouw gecompileerde code 
 
+Component:
+Herbruikbaar stuk code
+
+Pipes in angular:
+- date
+- currency
+met een verticaal streepje
+date: {{date | date:'dd MMM yy' }}
