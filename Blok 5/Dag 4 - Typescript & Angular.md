@@ -28,5 +28,10 @@ SSG - Static Site Generator
 - bol.com
 - Als je data hebt wat weinig veranderd?
 
-
+### @angular/cli
+- ng new <projectnaam>
+- ng build - maak je project klaar voor deployment
+- ng test - run unittest
+- ng test --code-coverage - run unittest met coverage
+- ng serve - lokaal web server opstarten met jouw gecompileerde code 
 
