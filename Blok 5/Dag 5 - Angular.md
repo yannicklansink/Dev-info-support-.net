@@ -31,3 +31,16 @@ A directive is a class that can add behavior to an element in your Angular templ
 
 ### Prototypes
 Soort extensions methods in C#
+
+### Partial
+
+
+### Componenten
+`ng generate component components/lifecycle`
+`ng g c components/lifecycle`
+Deze angular cli commands maken een nieuwe map met daarin 3 components. Ook update het de module file met de juiste component.
+
+- Lifecycle
+
+
+- herbruikbaar UI-component
