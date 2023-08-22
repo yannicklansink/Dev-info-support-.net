@@ -29,3 +29,5 @@ A directive is a class that can add behavior to an element in your Angular templ
 	*ngIf*
 	```
 
+### Prototypes
+Soort extensions methods in C#
