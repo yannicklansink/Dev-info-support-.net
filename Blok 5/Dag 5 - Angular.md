@@ -2,6 +2,10 @@
 - Formulieren met validatie
 - Componenten maken en testen
 
+### Forms
+FormGroup
+FormControl:
+- In reactive forms each form element in the view is directly linked to the FormControl
 
 ### ReactiveForms Module
 In reactive forms, the form's structure and logic is mostly handled in the component class, rather than the template. This gives you more control over the form behavior and allows you to handle more complex validation and interaction scenarios.
@@ -15,10 +19,13 @@ A directive is a class that can add behavior to an element in your Angular templ
 3 types of directives:
 - Component Directive
 - Attribute Directive
-	- 
+	- Change the appearance or behavior of an element, component, or another directive.
+	```html
+	<div> [ngStyle] ="{'color': 'red'}">This is red text. </div>
+	```
 - Structural Directive
 	- Changed DOM layout
-	```html
+	```angular
 	*ngFor
 	*ngIf*
 	```
