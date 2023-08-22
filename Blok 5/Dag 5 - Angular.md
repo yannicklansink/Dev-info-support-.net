@@ -1,7 +1,6 @@
 ### Agenda
 - Formulieren met validatie
 - Componenten maken en testen
-
 ### Forms
 FormGroup
 FormControl:
