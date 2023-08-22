@@ -15,6 +15,8 @@ Angular is een framework voor applicatieontwerp en een ontwikkelingsplatform voo
 SPA - Single Page Application
 - Alles wordt direct geladen
 - Vooral gebruikt met veel interactie met de gebruiker
+- Server stuurt templates
+- Dat wordt los opgehaald via JSON-REST API
 
 SSR - Server-side Rendering
 - Rendered SEO eerst
@@ -52,3 +54,6 @@ date: {{date | date:'dd MMM yy' }}
 4. `app.component.css`: Contains the styles for `AppComponent`. You use this file when you want to define styles that only apply to a specific component, as opposed to your application overall.
 
 Jasmine is the standard test framework in angular
+
+### Data binding
+- Variabelen uit achterliggende class in HTML.
