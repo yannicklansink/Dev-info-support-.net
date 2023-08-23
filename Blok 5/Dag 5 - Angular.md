@@ -48,6 +48,11 @@ Deze angular cli commands maken een nieuwe map (of bestaande map) met daarin 3 c
 
 ----------------------
 ## My own notes:
+
+- **Property Binding** with `[]` is typically used when you want to bind a DOM property (like `src`) to a component property.
+    
+- **Interpolation** with `{{ }}` is used when you want to interpolate a value within text content or attribute values.
+
 ### Services
 M any different use cases/purpuses.
 Injectable tells angular it's usable in as Dependency Injection. Meaning other parts in the program can request a instance of the service.
@@ -55,5 +60,8 @@ Injectable tells angular it's usable in as Dependency Injection. Meaning other p
 Angular cli
 `ng g s services/housing`
 `ng generate service --path=app/services/housing`
+
+
+
 
 
