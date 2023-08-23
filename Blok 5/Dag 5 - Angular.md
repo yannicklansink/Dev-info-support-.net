@@ -44,3 +44,16 @@ Deze angular cli commands maken een nieuwe map (of bestaande map) met daarin 3 c
 
 
 - herbruikbaar UI-component
+
+
+----------------------
+## My own notes:
+### Services
+M any different use cases/purpuses.
+Injectable tells angular it's usable in as Dependency Injection. Meaning other parts in the program can request a instance of the service.
+
+Angular cli
+`ng g s services/housing`
+`ng generate service --path=app/services/housing`
+
+
