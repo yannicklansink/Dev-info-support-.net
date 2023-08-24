@@ -5,7 +5,10 @@
 ### Dependency Injection
 - Inversion of control
 - low coupling
-- 
+
+provideIn: 'root':
+- beter voor optimalisatie
+- beter voor grote projecten met tientallen services
 
 ### Services
 - The _injector_ is the main mechanism. Angular creates an application-wide injector for you during the bootstrap process, and additional injectors as needed. You don't have to create injectors.
