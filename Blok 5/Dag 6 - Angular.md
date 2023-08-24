@@ -9,3 +9,9 @@
     
 - A _provider_ is an object that tells an injector how to obtain or create a dependency
 
+3 ways to provide services to compenents:
+- Injectable
+```
+```
+- NgModule
+- Component
