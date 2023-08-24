@@ -11,7 +11,17 @@
 
 3 ways to provide services to compenents:
 - Injectable
-```
+``` ts
+@Injectable({
+ providedIn: 'root',
+})
 ```
 - NgModule
 - Component
+``` ts
+@Component({
+  selector:    'app-hero-list',
+  templateUrl: './hero-list.component.html',
+  providers:  [ HeroService ]
+})
+```
