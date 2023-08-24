@@ -50,3 +50,8 @@ HttpClient
 - automatisch json parsing
 - interceptors (request/ request interceptors (auth token))
 
+Hoe update je een lijst met gegevens:
+1. server moet bijgewerkte entity teruggeven
+2. .get() nogmaals aanroepen
+3. lokaal object gewoon tonen
+	1. naam: optimistic UI
