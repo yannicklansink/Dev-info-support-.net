@@ -49,4 +49,4 @@ HttpClient
 - .get .post
 - automatisch json parsing
 - interceptors (request/ request interceptors (auth token))
-- 
+
