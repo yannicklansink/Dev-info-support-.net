@@ -33,3 +33,9 @@ provideIn: 'root':
   providers:  [ HeroService ]
 })
 ```
+
+### Testing
+mock aanmaken manieren:
+- SpyOn() -> functie maken
+- `let navigateserviceMock = jasmine.createSpyOn('navigateServiceMock', ['next'])  ->`
+- ng-mocks (download npm)
