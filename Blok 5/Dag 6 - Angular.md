@@ -2,6 +2,11 @@
 - Backendcommunicatie
 - Reactive programming
 
+### Dependency Injection
+- Inversion of control
+- low coupling
+- 
+
 ### Services
 - The _injector_ is the main mechanism. Angular creates an application-wide injector for you during the bootstrap process, and additional injectors as needed. You don't have to create injectors.
     
