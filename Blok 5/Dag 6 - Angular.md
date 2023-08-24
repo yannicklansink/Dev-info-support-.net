@@ -39,3 +39,8 @@ mock aanmaken manieren:
 - SpyOn() -> functie maken
 - `let navigateserviceMock = jasmine.createSpyOn('navigateServiceMock', ['next'])  ->`
 - ng-mocks (download npm)
+
+### Backendcommunicatie
+npm: json-server
+- Get a full fake rest api
+- npm install --global json-server
