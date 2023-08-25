@@ -61,3 +61,10 @@ Routing aan de praat krijgen met Angular:
 2. `<router-outlet></router-outlet>` waar de verschillende content pagina getoond worden
 3. Routermodule
 4. pagina maken
+
+Router mogelijkheden (niet behandeld):
+- guards => niet bent ingelogd, geen toegang tot pagina
+- resolvers => data ophalen voordat gebruiker daarop klikt
+- lazy loading => 
+- parameters ontvangen
+- child routes => pagina die uit subpagina's bestaat. 
