@@ -10,12 +10,16 @@ Reactivity
 - soort event listeners? (voor event handeling)
 - async operaties
 - .subscribe()
-- Promises wel standaard beschikbaar
+- Promises wel standaard beschikbaar.
+- Verschil is:
+	- promise heeft maar 1 resultaat (asynchroon)
+	- observables is een stream van data/resultaten (asynchroon)
+- Observables zijn lazy - geen subscribers? Geen werk.
 
 ```js
 // library: rxjs
 // npm i rxys
-let source = new Observable((resolve, reject) -> {
+let source = new rxjs.Observable((resolve, reject) -> {
 	console.log("observable start")
 
 	setTimeout(() -> {
@@ -23,6 +27,10 @@ let source = new Observable((resolve, reject) -> {
 		subject.next(42);
 	}, 2000)
 })
-source.subscribe(result -> console.log("observable result: ", result))
+let subscription = source.subscribe(result -> console.log("observable result: ", result))
+
+subscription.unsubscribe();
 ```
+
+
 
