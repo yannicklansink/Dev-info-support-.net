@@ -41,5 +41,10 @@ Observables worden gebruikt in Angular bij de:
 - httpclient .get()
 - forms
 
+3 kinds of subjects:
+- Subject
+- Behaviorsubject
+- Repeatsubject
 
+the idea of using a `BehaviorSubject` (or any Subject) is to hold onto the current value and allow multiple parts of your app to listen for changes to that value. When you want to update the value, you use the `next` method of the Subject to push a new value to it.
 
