@@ -48,3 +48,11 @@ Observables worden gebruikt in Angular bij de:
 
 the idea of using a `BehaviorSubject` (or any Subject) is to hold onto the current value and allow multiple parts of your app to listen for changes to that value. When you want to update the value, you use the `next` method of the Subject to push a new value to it.
 
+### Routing 
+SPA => Single Page Application
+- 1 pagina
+	- geen harde refreshes meer
+- Andere pagina's inladen:
+	- Alle content wordt met eerste request laden
+	- Lazy loading => als de gebruiker naar pagina X toegaat, dan je dan bij de server de template voor pagina X ophaalt, op de achtergrond, via javascript.
+
