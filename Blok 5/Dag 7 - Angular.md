@@ -15,6 +15,7 @@ Reactivity
 	- promise heeft maar 1 resultaat (asynchroon)
 	- observables is een stream van data/resultaten (asynchroon)
 - Observables zijn lazy - geen subscribers? Geen werk.
+- vergelijkbaar met LINQ
 
 ```js
 // library: rxjs
@@ -27,10 +28,18 @@ let source = new rxjs.Observable((resolve, reject) -> {
 		subject.next(42);
 	}, 2000)
 })
-let subscription = source.subscribe(result -> console.log("observable result: ", result))
+let subscription = source
+	.pipe(rxjs.operators.map(x -> x * 10)) // transformatie op inkomende stream
+	.subscribe(result -> console.log("observable result: ", result))
 
 subscription.unsubscribe();
 ```
+
+Observables worden gebruikt in Angular bij de:
+- eventemitter
+- routing params
+- httpclient .get()
+- forms
 
 
 
