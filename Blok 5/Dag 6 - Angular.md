@@ -5,6 +5,7 @@
 ### Dependency Injection
 - Inversion of control
 - low coupling
+Constructor is voor DI en de NgOnInit is voor initialisatie bij components.
 
 provideIn: 'root':
 - beter voor optimalisatie
