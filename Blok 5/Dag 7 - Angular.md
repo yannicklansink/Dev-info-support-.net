@@ -53,6 +53,11 @@ SPA => Single Page Application
 - 1 pagina
 	- geen harde refreshes meer
 - Andere pagina's inladen:
-	- Alle content wordt met eerste request laden
+	- Alle content wordt met eerste request laden (default angular)
 	- Lazy loading => als de gebruiker naar pagina X toegaat, dan je dan bij de server de template voor pagina X ophaalt, op de achtergrond, via javascript.
 
+Routing aan de praat krijgen met Angular:
+1. al je routes definieren
+2. `<router-outlet></router-outlet>` waar de verschillende content pagina getoond worden
+3. Routermodule
+4. pagina maken
