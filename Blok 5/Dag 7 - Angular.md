@@ -68,3 +68,9 @@ Router mogelijkheden (niet behandeld):
 - lazy loading => 
 - parameters ontvangen
 - child routes => pagina die uit subpagina's bestaat. 
+
+### Hoe werk de change detection van Angular
+Change detection algoritme
+
+
+
