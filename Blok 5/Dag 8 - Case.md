@@ -1,4 +1,10 @@
 Componenten:
 - Film overzicht
 - Menubalk
-	- FIlms 
+	- Films overzicht
+	- Diensten
+- Film details (MovieDetailsComponent)
+- Film vertoningen (komt op film details pagina)
+
+Service:
+- 
