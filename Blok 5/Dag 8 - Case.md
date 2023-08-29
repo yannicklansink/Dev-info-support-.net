@@ -19,3 +19,15 @@
 
 
 ### Code explainers:
+```html
+<ng-container *ngIf="film$ | async as film">
+async pipe abonneerd zich op een film$ observable, zodat wanneer er een nieuwe waarde wordt gepusht deze automatisch wordt geupdate. De 'as film' maakt een template variable.
+```
+
+```html
+<div *ngFor="let group of groupedTijden | keyvalue">
+ngFor loopt door alle groups in groupedTijden.
+De keyvalue pipe wordt gebruikt om het object groupedTijden te converteren naar een array van key value pairs.
+<ng-container *ngFor="let tijd of group.value; let last = last">
+let last = last is beschikbaar door angular waarmee kan worden gekeken of
+```
