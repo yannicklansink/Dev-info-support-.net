@@ -14,6 +14,7 @@
 - Menu Balk
 - Diensten
 - Page Not Found
+- Reserveren
 
 ### Pipes
 - Date Formatter
