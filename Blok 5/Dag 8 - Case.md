@@ -9,6 +9,8 @@
 ### Componenten
 - Film Overzicht
 - Movie Details
+	- Houdt een film$ observables als variabele. Hier wordt op geabonneerd in de ngOnInt() door het krijgen van de id uit de URL. 
+	- Gebruikt een object van key value pairs, waar pairs een string array is. Deze wordt gevuld in de groupTijden methode waarbij de tijden parameter wordt gegroepeerd op date en time. 
 - Menu Balk
 - Diensten
 - Page Not Found
