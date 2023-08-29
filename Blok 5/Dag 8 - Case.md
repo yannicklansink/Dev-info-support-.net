@@ -7,4 +7,6 @@ Componenten:
 - Film vertoningen (komt op film details pagina)
 
 Service:
-- 
+- film service
+	- Fetches the data though json api.
+	- 
