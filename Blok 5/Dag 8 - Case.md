@@ -16,6 +16,11 @@
 - Page Not Found
 - Reserveren
 
+### Models:
+- Film
+- Playtime
+- Reservatie
+
 ### Pipes
 - Date Formatter
 
