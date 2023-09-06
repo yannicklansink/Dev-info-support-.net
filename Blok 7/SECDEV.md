@@ -6,3 +6,4 @@ Hoofdoel programma: Bewustwording van veilig programmeren
 Authentication: Wie je bent
 Autorisatie: Wat je mag
 
+DDOS: Distributed Denial Of Service
