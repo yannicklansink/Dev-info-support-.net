@@ -40,6 +40,10 @@ CORS: Cross Origin Resource Sharing
 
 Same-origin (zelfde server) request: 
 - Wordt bepaald bij de eerste get request naar website
+- Beschermd gebruik tegen cross origin. (mastercard aanval voorbeeld)
+- Mag niet cross-origin (van een andere server) data ophalen
 
 Cross-origin:
-- Mag niet cross-origin (van een andere server) data ophalen
+- Is een header (zet bescherming uit)
+- This enables server to specify other origins die data mogen ophalen van de website
+- 
