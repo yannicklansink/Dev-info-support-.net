@@ -31,6 +31,15 @@ Referer: The **`Referer`** HTTP request header contains the absolute or partia
 HTTP response:
 - 200: Ok
 - 300: Redirects
-- 400: Bad request gebruiker
-- 
+- 400: Client error
+- 500: Server error
 
+Browser security model:
+SOP: Same Origin Policy 
+CORS: Cross Origin Resource Sharing
+
+Same-origin (zelfde server) request: 
+- Wordt bepaald bij de eerste get request naar website
+
+Cross-origin:
+- Mag niet cross-origin (van een andere server) data ophalen
