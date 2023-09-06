@@ -20,7 +20,7 @@ Model for threads (potential attack): STRIDE
 
 Man In The Middle Proxy:
 
-Cross-Site Request Forgery: Gebruiker dwingen statuswijzigingen uit te voeren zoals overboekingen, wijzigen gegevens, etc. Komt vaak Social Engineering bij kijken. 
+Cross-Site Request Forgery (CSRF): Gebruiker dwingen statuswijzigingen uit te voeren zoals overboekingen, wijzigen gegevens, etc. Komt vaak Social Engineering bij kijken. An authorized user performs a request (post for example) 
 
 Cross-Site Scripting (XSS): an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website
 
@@ -60,11 +60,12 @@ Session-based authentication:
 - Session id send with every request(get, post, cookie)
 - Cookie is the most secure 
 - Generates a new session id after logging in (always a new one)
-- 
+- Deletes session data when session terminates
+- Keep session id private
+- Make session id unpredictable
 
 Token-based authentication:
 - Stored in browser
-
 
 Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
 X-Powered-By: Express
