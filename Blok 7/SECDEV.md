@@ -48,8 +48,10 @@ Cross-origin:
 - This enables server to specify other origins die data mogen ophalen van de website
 - acces-control-allow-origin: *
 
-HttpOnly: Cookie attribute where javascript can't access it.
-
+HttpOnly: The cookie attribute can't be accessed by javascript 
 Password salting: Technique to make offline cracking more difficult.
+
+
+
 
 
