@@ -16,4 +16,6 @@ Model for threads (potential attack): STRIDE
 - Repudiation: Het kunnen ontkennen van iets een actie van de gebruiker.
 - Information disclosure: Wanneer gevoelige gegevens per ongeluk worden vrijgegeven  
 - Denial of service: Cyber aanval waardoor een server niet meer beschikbaar is.
-- Elevation of privilege: Wanneer een applicatie rechten verkrijgt die niet voor 
+- Elevation of privilege: Wanneer een gebruiker rechten verkrijgt die niet zou mogen. (Als het lukt om admin te worden ergens?)
+
+Man In The Middle Proxy:
