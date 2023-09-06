@@ -3,6 +3,8 @@ Aan het eind van de training ontvang je een email met instructies voor het doen 
 ### Secure Programming Foundation
 Hoofdoel programma: Bewustwording van veilig programmeren
 
+Security: The state of being free from danger or threat
+
 Authentication: Wie je bent
 Autorisatie: Wat je mag
 
@@ -21,3 +23,6 @@ Model for threads (potential attack): STRIDE
 Man In The Middle Proxy:
 
 Cross-Site Request Forgery: Gebruiker dwingen statuswijzigingen uit te voeren zoals overboekingen, wijzigen gegevens, etc. Komt vaak Social Engineering bij kijken. 
+
+
+
