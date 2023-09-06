@@ -72,4 +72,13 @@ Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
 X-Powered-By: Express
 
 SQL Injection:
-- Parameterized Queries: Technique to separate the SQL query from the user input values
+- Solution 1: Parameterized Queries: Technique to separate the SQL query from the user input values
+	- Object Relation Mappers(ORM): Invented for convenience (maar kijk uit)
+	- Stored procedures (maar kijk uit)
+- Solution 2: Input validation (accept or reject certain input | allow- blok list)
+- Solution 3: Escaping (deze is de beste?)
+	- metacharacters are preceded by a another character: called the escape character
+
+
+regular expressions == Regex:
+- 
