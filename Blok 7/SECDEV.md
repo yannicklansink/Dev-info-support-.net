@@ -54,6 +54,7 @@ Password salting: Technique to make offline cracking more difficult.
 Salting: helps defend against attacks that use precomputed tables (rainbow tables), by vastly growing the size of table needed for a successful attack. It also helps protect passwords that occur multiple times in a database, as a new salt is used for each password instance.
 
 Session-based authentication:
+- Stored on server
 - Cookie met een sessionid.
 - Session id used to authenticate (should kept secret)
 - Session id send with every request(get, post, cookie)
@@ -61,4 +62,7 @@ Session-based authentication:
 
 Token-based authentication:
 - Stored in browser
+
+Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
+X-Powered-By: Express
 
