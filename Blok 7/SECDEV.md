@@ -10,8 +10,6 @@ Autorisatie: Wat je mag
 
 DDOS: Distributed Denial Of Service
 
-HttpOnly: Cookie attribute where javascript can't access it.
-
 Model for threads (potential attack): STRIDE
 - Spoofing: Doet alsof je iets of iemand anders bent (ik ben donald trump)
 - Tempering: Ongeoorloofd code/files wijzigen of verwijderen zonder authorization.
@@ -42,8 +40,16 @@ Same-origin (zelfde server) request:
 - Wordt bepaald bij de eerste get request naar website
 - Beschermd gebruik tegen cross origin. (mastercard aanval voorbeeld)
 - Mag niet cross-origin (van een andere server) data ophalen
+- POST mag altijd naar een andere origin!
+- Cookies zijn ook anders?
 
 Cross-origin:
 - Is een header (zet bescherming uit)
 - This enables server to specify other origins die data mogen ophalen van de website
-- 
+- acces-control-allow-origin: *
+
+HttpOnly: Cookie attribute where javascript can't access it.
+
+Password salting: Technique to make offline cracking more difficult.
+
+
