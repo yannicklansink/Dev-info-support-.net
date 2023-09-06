@@ -51,7 +51,10 @@ Cross-origin:
 HttpOnly: The cookie attribute can't be accessed by javascript 
 Password salting: Technique to make offline cracking more difficult.
 
+Salting: helps defend against attacks that use precomputed tables (rainbow tables), by vastly growing the size of table needed for a successful attack. It also helps protect passwords that occur multiple times in a database, as a new salt is used for each password instance.
 
+Session-based authentication:
+- Cookie met een sessionid. 
 
 
 
