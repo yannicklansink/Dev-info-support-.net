@@ -59,9 +59,12 @@ Session-based authentication:
 - Session id used to authenticate (should kept secret)
 - Session id send with every request(get, post, cookie)
 - Cookie is the most secure 
+- Generates a new session id after logging in (always a new one)
+- 
 
 Token-based authentication:
 - Stored in browser
+
 
 Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
 X-Powered-By: Express
