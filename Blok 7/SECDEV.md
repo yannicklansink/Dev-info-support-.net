@@ -19,3 +19,5 @@ Model for threads (potential attack): STRIDE
 - Elevation of privilege: Wanneer een gebruiker rechten verkrijgt die niet zou mogen. (Als het lukt om admin te worden ergens?)
 
 Man In The Middle Proxy:
+
+Cross-Site Request Forgery: Gebruiker dwingen statuswijzigingen uit te voeren zoals overboekingen, wijzigen gegevens, etc. Komt vaak Social Engineering bij kijken. 
