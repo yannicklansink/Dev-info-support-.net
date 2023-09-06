@@ -24,5 +24,13 @@ Man In The Middle Proxy:
 
 Cross-Site Request Forgery: Gebruiker dwingen statuswijzigingen uit te voeren zoals overboekingen, wijzigen gegevens, etc. Komt vaak Social Engineering bij kijken. 
 
+Cross-Site Scripting (XSS): an attack in which an attacker injects malicious executable scripts into the code of a trusted application or website
 
+Referer: The **`Referer`** HTTP request header contains the absolute or partial address from which a resource has been requested. The `Referer` header allows a server to identify referring pages that people are visiting from or where requested resources are being used.
+
+HTTP response:
+- 200: Ok
+- 300: Redirects
+- 400: Bad request gebruiker
+- 
 
