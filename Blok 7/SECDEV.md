@@ -7,3 +7,6 @@ Authentication: Wie je bent
 Autorisatie: Wat je mag
 
 DDOS: Distributed Denial Of Service
+
+HttpOnly: Cookie attribute where javascript can't access it.
+
