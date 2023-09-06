@@ -72,3 +72,4 @@ Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
 X-Powered-By: Express
 
 SQL Injection:
+- Parameterized Queries: Technique to separate the SQL query from the user input values
