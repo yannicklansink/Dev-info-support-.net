@@ -71,3 +71,4 @@ Token-based authentication:
 Onderstaand moet je niet vrijgeven aan de gebruiker in de header:
 X-Powered-By: Express
 
+SQL Injection:
