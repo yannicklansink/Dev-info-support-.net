@@ -110,3 +110,8 @@ Symmetric crypto: same (secret) key is shared between parties
 Asymmetric crypto: public key and private key voor elke gebruiker.
 
 input decoderen then first decode, then validate. 
+
+Authorization -> wat mag jij
+unauthorized object excess: 
+
+Indirect referencing: Je wilt niet database id's uit de html kunnen halen. Puzzelt
