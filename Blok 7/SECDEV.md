@@ -131,7 +131,9 @@ Maturity model: In hoeverre mijn systeem/aspect volwassen is in security:
 - BSIMM 
 - OpenSAMM
 
-
-
-
+Methods used to test security:
+- Attack and penetration test
+- Vulnerability test
+- Traditional test methods
+- Fuzzing (ongeldige data invoeren)
 
