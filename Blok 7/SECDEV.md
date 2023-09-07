@@ -50,6 +50,14 @@ Cross-origin:
 - acces-control-allow-origin: *
 
 HttpOnly: The cookie attribute can't be accessed by javascript 
+Secure: Kan alleen over HTTPS verstuurd worden
+```js
+res.cookie(number, 123) {
+	expires: new Date(Date.now() + 900000)
+	HttpOnly: true, // kan niet met javascript client side worden uitgelezen
+	secure: true // alleen over https
+}
+```
 Password salting: Technique to make offline cracking more difficult.
 
 Salting: helps defend against attacks that use precomputed tables (rainbow tables), by vastly growing the size of table needed for a successful attack. It also helps protect passwords that occur multiple times in a database, as a new salt is used for each password instance.
