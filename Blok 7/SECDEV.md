@@ -1,5 +1,4 @@
 Aan het eind van de training ontvang je een email met instructies voor het doen van het examen!
-
 ### Secure Programming Foundation
 Hoofdoel programma: Bewustwording van veilig programmeren
 
@@ -47,7 +46,6 @@ Cross-origin:
 - Is een header (zet bescherming uit)
 - This enables server to specify other origins die data mogen ophalen van de website
 - acces-control-allow-origin: *
-
 ### Cookies:
 HttpOnly: The cookie attribute can't be accessed by javascript 
 Secure: Kan alleen over HTTPS verstuurd worden
@@ -58,9 +56,9 @@ res.cookie(number, 123) {
 	secure: true // alleen over https
 }
 ```
+Domain: Waar de cookies nog meer heen kan worden gestuurd. Het liefst leeg houden
 
 Password salting: Technique to make offline cracking more difficult.
-
 
 Salting: helps defend against attacks that use precomputed tables (rainbow tables), by vastly growing the size of table needed for a successful attack. It also helps protect passwords that occur multiple times in a database, as a new salt is used for each password instance.
 
@@ -91,4 +89,10 @@ SQL Injection:
 
 regular expressions == Regex:
 - for client side validation
+
+Clickjacking: an attack that fools users into thinking they are clicking on one thing when they are actually clicking on another.
+
+
+
+
 
