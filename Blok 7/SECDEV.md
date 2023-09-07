@@ -116,6 +116,17 @@ unauthorized object excess:
 
 Indirect referencing: Je wilt niet database id's uit de html kunnen halen, gebruik dus indirect referencing. Puzzelstukje voor de hacker.
 
-Timing attack: discover vulnerabilities by studying how long it takes the system to respond to different inputs
+Timing attack: discover vulnerabilities by studying how long it takes the system to respond to different (login) inputs. 
+
+Hardening: Securing a system by changing configuration and installation.
+
+A web app can leak info from:
+- server headers
+- stack traces (debug info)
+- directory index (wp admin wordpress)
+- comments in HTML pages
+- Version management
+
+
 
 
