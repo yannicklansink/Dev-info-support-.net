@@ -105,7 +105,9 @@ Cryptography used for:
 - authenication (signing)
 - non-repudiation (signing)
 
-Kerckhoff principle: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source).
+Kerckhoff principle: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source). 
+6 principles of Kerckhoff:
+
 Symmetric crypto: same (secret) key is shared between parties
 Asymmetric crypto: public key and private key voor elke gebruiker.
 
