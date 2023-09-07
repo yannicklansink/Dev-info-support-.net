@@ -114,4 +114,8 @@ input decoderen then first decode, then validate.
 Authorization -> wat mag jij
 unauthorized object excess: 
 
-Indirect referencing: Je wilt niet database id's uit de html kunnen halen. Puzzelt
+Indirect referencing: Je wilt niet database id's uit de html kunnen halen, gebruik dus indirect referencing. Puzzelstukje voor de hacker.
+
+
+
+
