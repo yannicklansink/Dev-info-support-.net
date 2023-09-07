@@ -48,6 +48,7 @@ Cross-origin:
 - This enables server to specify other origins die data mogen ophalen van de website
 - acces-control-allow-origin: *
 
+### Cookies:
 HttpOnly: The cookie attribute can't be accessed by javascript 
 Secure: Kan alleen over HTTPS verstuurd worden
 ```js
@@ -57,7 +58,9 @@ res.cookie(number, 123) {
 	secure: true // alleen over https
 }
 ```
+
 Password salting: Technique to make offline cracking more difficult.
+
 
 Salting: helps defend against attacks that use precomputed tables (rainbow tables), by vastly growing the size of table needed for a successful attack. It also helps protect passwords that occur multiple times in a database, as a new salt is used for each password instance.
 
@@ -85,7 +88,6 @@ SQL Injection:
 - Solution 2: Input validation (accept or reject certain input | allow- blok list)
 - Solution 3: Escaping (deze is de beste?)
 	- metacharacters are preceded by a another character: called the escape character
-
 
 regular expressions == Regex:
 - for client side validation
