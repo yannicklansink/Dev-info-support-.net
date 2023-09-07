@@ -109,3 +109,4 @@ Kerckhoff principle: A cryptosystem should be secure even if everything about th
 Symmetric crypto: same (secret) key is shared between parties
 Asymmetric crypto: public key and private key voor elke gebruiker.
 
+input decoderen then first decode, then validate. 
