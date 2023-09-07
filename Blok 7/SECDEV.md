@@ -125,7 +125,7 @@ A web app can leak info from:
 - stack traces (debug info)
 - directory index (wp admin wordpress)
 - comments in HTML pages
-- Version management
+- version management
 
 
 
