@@ -24,6 +24,8 @@ CSRF Token: AKA: NONCE: is a unique, secret, and unpredictable value that is gen
 
 Cross-Site Scripting (XSS): Script injecteren! An attack in which an attacker injects malicious executable scripts into the code of a trusted application or website. Simpel gezegd; ergens code plaatsen waar data wordt verwacht.
 Dit kan zitten in email, url, sql, text file, pdf, http response headers, XML. 
+Stored XSS: 
+Reflected XSS:  
 
 Referer: The **`Referer`** HTTP request header contains the absolute or partial address from which a resource has been requested. The `Referer` header allows a server to identify referring pages that people are visiting from or where requested resources are being used.
 
