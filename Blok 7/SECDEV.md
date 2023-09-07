@@ -91,8 +91,7 @@ regular expressions == Regex:
 - for client side validation
 
 Clickjacking: an attack that fools users into thinking they are clicking on one thing when they are actually clicking on another.
-
-
+- Gebruik hiertegen X-Frame-Options HTTP Header (deny/sameorigin)
 
 
 
