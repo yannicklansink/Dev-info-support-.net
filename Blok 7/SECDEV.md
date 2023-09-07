@@ -92,6 +92,17 @@ regular expressions == Regex:
 
 Clickjacking: an attack that fools users into thinking they are clicking on one thing when they are actually clicking on another.
 - Gebruik hiertegen X-Frame-Options HTTP Header (deny/sameorigin)
+```js
+ res.setHeader("X-Frame-Options", "DENY")
+```
 
 
+Cryptography used for:
+- Confidentiality (encyption)
+- integrity (checksums, hasing)
+- authenication (signing)
+- non-repudiation (signing)
 
+Kerckhoff principle: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source).
+Symmetric crypto: same key is shared between parties
+Asymmetric crypto: public key and private key
