@@ -127,6 +127,11 @@ A web app can leak info from:
 - comments in HTML pages
 - version management
 
+Maturity model: In hoeverre mijn systeem/aspect volwassen is security:
+- BSIMM 
+- OpenSAMM
+
+
 
 
 
