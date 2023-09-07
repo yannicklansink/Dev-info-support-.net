@@ -123,11 +123,11 @@ Hardening: Securing a system by changing configuration and installation.
 A web app can leak info from:
 - server headers
 - stack traces (debug info)
-- directory index (wp admin wordpress)
+- directory index (/wp-admin wordpress)
 - comments in HTML pages
 - version management
 
-Maturity model: In hoeverre mijn systeem/aspect volwassen is security:
+Maturity model: In hoeverre mijn systeem/aspect volwassen is in security:
 - BSIMM 
 - OpenSAMM
 
