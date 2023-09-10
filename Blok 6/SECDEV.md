@@ -12,7 +12,7 @@ DDOS: Distributed Denial Of Service
 Model for threads (potential attack): STRIDE
 - Spoofing: Doet alsof je iets of iemand anders bent (ik ben donald trump)
 - Tempering: Ongeoorloofd code/files wijzigen of verwijderen zonder authorization.
-- Repudiation: Het kunnen ontkennen van iets een actie van de gebruiker.
+- Repudiation: Het kunnen ontkennen van een actie van de gebruiker.
 - Information disclosure: Wanneer gevoelige gegevens per ongeluk worden vrijgegeven  
 - Denial of service: Cyber aanval waardoor een server niet meer beschikbaar is.
 - Elevation of privilege: Wanneer een gebruiker rechten verkrijgt die niet zou mogen. (Als het lukt om admin te worden ergens?)
