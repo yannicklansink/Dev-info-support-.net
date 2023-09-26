@@ -39,6 +39,7 @@ docker build -t yannicklansink/av-app-image
 
 docker login kcbdregistry.azurecr.io --username b908d8bd-293d-4506-ab4b-cb3b4de16d1b --password WYd8Q~tGhWEZhErK8hGaOj8Gv4EXUD-5MhM~xbBN
 
-docker-compose up --build -b
+docker-compose up --build -d
+
 
 
