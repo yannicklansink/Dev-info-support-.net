@@ -32,6 +32,11 @@ Docker container van RDW.
 
 ### To run project locally:
 
+dotnet publish --configuration Release
+docker build -t my-backend .
+
+docker build -t yannicklansink/av-app-image
+
 docker login kcbdregistry.azurecr.io --username b908d8bd-293d-4506-ab4b-cb3b4de16d1b --password WYd8Q~tGhWEZhErK8hGaOj8Gv4EXUD-5MhM~xbBN
 
 docker-compose up
