@@ -44,4 +44,5 @@ ng build --configuration production --output-path=angular-build
 docker-compose up --build -d
 
 
-
+-------------
+git checkout -b pipeline
