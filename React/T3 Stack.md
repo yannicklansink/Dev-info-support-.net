@@ -6,7 +6,7 @@ Prisma (DB)
 
 Deployed on:
 - Clerk
-- Planetscale
+- Planetscale -> Advanced mysql platform
 - Upstash
 - Vercel
 - Axiom
