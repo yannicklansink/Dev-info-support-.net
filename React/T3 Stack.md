@@ -21,8 +21,10 @@ npx prisma studio
 ```
 
 Deployed on:
-- Clerk
+- Clerk -> authentication (user  management)
+	- [Dashboard | Clerk.com](https://dashboard.clerk.com/apps/app_2WQt7in0y7d0CSJgetCi63qcEAu/instances/ins_2WQt7hfObc7oCeJWCeg4ddOr6Gg?)
 - Planetscale -> Advanced mysql platform
+	- [chirpdb overview - PlanetScale](https://app.planetscale.com/yannick-lansink/chirpdb)
 - Upstash
 - Vercel
 - Axiom
