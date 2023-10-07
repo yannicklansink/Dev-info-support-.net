@@ -43,6 +43,11 @@ generator client {
 
 npx prisma db push # This tells Prisma to take current state of things in schema to set that to the database, wherever that server is.
 npx prisma studio
+
+
+Workflow for changes in database:
+npx pisma db push
+npm install # so typescript knows about the changes? (npx prisma generate)
 ```
 
 
