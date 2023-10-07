@@ -16,6 +16,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
+npx prisma db push # This tells Prisma to take current state of things in schema to set that to the database, wherever that server is.
 npx prisma studio
 ```
 
