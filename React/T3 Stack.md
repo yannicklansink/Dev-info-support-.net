@@ -2,6 +2,11 @@
 Next.js
 tRPC
 TypeScript
+```
+#Sometimes you want to restart the ts server
+CTRL SHIFT P (in VSCODE)
+TypeScript: Restart TS server
+```
 Tailwind
 
 ### Deployed on:
