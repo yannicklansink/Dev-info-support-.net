@@ -110,8 +110,14 @@ Cryptography used for:
 - authentication (signing)
 - non-repudiation (signing)
 
-Kerckhoff principle: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source). 
+**Kerckhoff principle**: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source). 
 6 principles of Kerckhoff:
+1. The system must be practically, if not mathematically, indecipherable; (hard to crack. strong security)
+2. It must not be required to be secret, and it must be able to fall into the hands of the enemy without inconvenience; 
+3. Its key must be communicable and retainable without the help of written notes, and changeable or modifiable at the will of the correspondents; (manageable keys)
+4. It must be compatible with the means of communication; (communication compatability)
+5. It must be portable, and its usage and function must not require the concourse of several people;
+6. Finally, it is necessary, given the circumstances that command its application, that the system be easy to use, requiring neither mental strain nor the knowledge of a long series of rules to observe. (user friendly)
 
 Symmetric crypto: same (secret) key is shared between parties
 Asymmetric crypto: public key and private key voor elke gebruiker.
