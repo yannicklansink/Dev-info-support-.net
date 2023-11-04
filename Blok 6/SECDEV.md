@@ -55,12 +55,12 @@ Cross-origin:
 - This enables server to specify other origins die data mogen ophalen van de website
 - acces-control-allow-origin: *
 ### Cookies:
-HttpOnly: The cookie attribute can't be accessed by javascript 
+HttpOnly: The cookie attribute can't be accessed by javascript. Helpt bij XSS.
 Secure: Kan alleen over HTTPS verstuurd worden
 ```js
 res.cookie(number, 123) {
 	expires: new Date(Date.now() + 900000)
-	HttpOnly: true, // kan niet met javascript client side worden uitgelezen
+	HttpOnly: true, // kan niet met javascript client side worden uitgelezen. Extra beveiliging.
 	secure: true // alleen over https
 }
 ```
