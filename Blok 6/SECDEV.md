@@ -28,6 +28,11 @@ Stored XSS: Een script in de database zetten bijvoorbeeld die in de toekomst uit
 Reflected XSS: Een script importeren in een website waar een gebruiker gevoelige gegevens invoert.
 
 Referer: The **`Referer`** HTTP request header contains the absolute or partial address from which a resource has been requested. The `Referer` header allows a server to identify referring pages that people are visiting from or where requested resources are being used.
+```HTTP
+Referer: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+Referer: https://example.com/page?q=123
+Referer: https://example.com/
+```
 
 HTTP response:
 - 200: Ok
