@@ -92,7 +92,7 @@ SQL Injection:
 	- Object Relation Mappers(ORM): Invented for convenience (maar kijk uit)
 	- Stored procedures (maar kijk uit)
 - Solution 2: Input validation (accept or reject certain input | allow- blok list)
-- Solution 3: Escaping (deze is de beste?)
+- Solution 3: Escaping 
 	- metacharacters are preceded by a another character: called the escape character
 
 regular expressions == Regex:
@@ -105,9 +105,9 @@ Clickjacking: an attack that fools users into thinking they are clicking on one 
 ```
 
 Cryptography used for:
-- Confidentiality (encyption)
-- integrity (checksums, hasing)
-- authenication (signing)
+- Confidentiality (encryption)
+- integrity (checksums, hashing)
+- authentication (signing)
 - non-repudiation (signing)
 
 Kerckhoff principle: A cryptosystem should be secure even if everything about the system, expect the key, is public knowledge (open source). 
