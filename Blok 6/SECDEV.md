@@ -152,9 +152,21 @@ Methods used to test security:
 
 a **side-channel attack** is any attack based on extra information that can be gathered because of the fundamental way a [computer protocol](https://en.wikipedia.org/wiki/Computer_protocol "Computer protocol") or [algorithm](https://en.wikipedia.org/wiki/Algorithm "Algorithm") is [implemented](https://en.wikipedia.org/wiki/Implementation#Computer_science "Implementation"), rather than flaws in the design of the protocol or algorithm itself
 
-LOCK: A listed custom HTTP verb (RFC 26016, section 9)
-TRACE and CONNECT are standard HTTP methods defined in the RFC.
-DELETE is also a standard method used to remove resources.
+Standard HTTP methods in RFC:
+- OPTIONS, TRACE
+- CONNECT
+- HEAD
+- GET, POST, DELETE, PUT
+
+Custom HTTP verbs in RFC:
+- PROPFIND
+- PROPGET
+- MKCOL
+- COPY
+- MOVE
+- (UN)LOCK
+- webDAV
+- DEBUG
 
 The best defense to buffer overflows is to check the length (C programmer use function 'fgets') 
 
