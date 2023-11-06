@@ -150,3 +150,5 @@ Methods used to test security:
 - Traditional test methods
 - Fuzzing (ongeldige data invoeren)
 
+a **side-channel attack** is any attack based on extra information that can be gathered because of the fundamental way a [computer protocol](https://en.wikipedia.org/wiki/Computer_protocol "Computer protocol") or [algorithm](https://en.wikipedia.org/wiki/Algorithm "Algorithm") is [implemented](https://en.wikipedia.org/wiki/Implementation#Computer_science "Implementation"), rather than flaws in the design of the protocol or algorithm itself
+
