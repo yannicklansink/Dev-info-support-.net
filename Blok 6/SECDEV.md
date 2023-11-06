@@ -156,4 +156,5 @@ LOCK: A listed custom HTTP verb (RFC 26016, section 9)
 TRACE and CONNECT are standard HTTP methods defined in the RFC.
 DELETE is also a standard method used to remove resources.
 
-The best defense to buffer overflows is to check the length 
+The best defense to buffer overflows is to check the length (C programmer use function 'fgets') 
+
