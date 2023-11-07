@@ -72,7 +72,7 @@ Salting: helps defend against attacks that use precomputed tables (rainbow table
 
 Session-based authentication:
 - Stored on server
-- Cookie met een sessionid.
+- Cookie met een sessionid. 
 - Session id used to authenticate (should kept secret)
 - Session id send with every request(get, post, cookie)
 - Cookie is the most secure 
