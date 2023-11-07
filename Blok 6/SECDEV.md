@@ -95,6 +95,10 @@ SQL Injection:
 - Solution 3: Escaping 
 	- metacharacters are preceded by a another character: called the escape character
 
+Stored procedures hide the internals of SQL queries from programmers.
+Calling a stored procedure from a direct query is dangerous.
+Dynamic queries created inside stored procedures are more dangerous.
+
 regular expressions == Regex:
 - for client side validation
 
