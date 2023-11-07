@@ -133,9 +133,13 @@ unauthorized object excess:
 
 Indirect referencing: Je wilt niet database id's uit de html kunnen halen, gebruik dus indirect referencing. Puzzelstukje voor de hacker.
 
-Timing attack: discover vulnerabilities by studying how long it takes the system to respond to different (login) inputs. 
+Timing attack: discover vulnerabilities by studying how long it takes the system to respond to different (login) inputs. Timing attack is a specific type of Side Channel Attack.
 
 Hardening: Securing a system by changing configuration and installation.
+Examples:
+- Applying latest security patches
+- Disable debug functions
+- Restrict unnecessary features like plugins
 
 A web app can leak info from:
 - server headers
@@ -150,7 +154,9 @@ Maturity model: In hoeverre mijn systeem/aspect volwassen is in security:
 
 Methods used to test security:
 - Attack and penetration test
+	- "Pentesting cannot be done by the development team" is generally NOT considered a disadvantage.
 - Vulnerability test
+	- Vulnerability scanners
 - Traditional test methods
 - Fuzzing (ongeldige data invoeren)
 
