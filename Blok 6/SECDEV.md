@@ -154,9 +154,9 @@ Maturity model: In hoeverre mijn systeem/aspect volwassen is in security:
 
 Methods used to test security:
 - Attack and penetration test
-	- "Pentesting cannot be done by the development team" is generally NOT considered a disadvantage.
+	- "Pentesting cannot be done by the development team" is NOT considered a disadvantage.
 - Vulnerability test
-	- Vulnerability scanners
+	- "Vulnerability scanners can be quite difficult to use" is NOT considered a disadvantage
 - Traditional test methods
 - Fuzzing (ongeldige data invoeren)
 
