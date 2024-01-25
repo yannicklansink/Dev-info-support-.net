@@ -93,7 +93,7 @@ SQL Injection:
 	- Stored procedures (maar kijk uit)
 - Solution 2: Input validation (accept or reject certain input | allow- blok list)
 - Solution 3: Escaping 
-	- metacharacters are preceded by a another character: called the escape character
+	- metacharacters are preceded by another character: called the escape character
 
 Stored procedures hide the internals of SQL queries from programmers.
 Calling a stored procedure from a direct query is dangerous.
