@@ -160,7 +160,7 @@ Methods used to test security:
 - Traditional test methods
 - Fuzzing (ongeldige data invoeren)
 
-a **side-channel attack** is any attack based on extra information that can be gathered because of the fundamental way a [computer protocol](https://en.wikipedia.org/wiki/Computer_protocol "Computer protocol") or [algorithm](https://en.wikipedia.org/wiki/Algorithm "Algorithm") is [implemented](https://en.wikipedia.org/wiki/Implementation#Computer_science "Implementation"), rather than flaws in the design of the protocol or algorithm itself
+a **side-channel attack** is any attack based on extra information that can be gathered because of the fundamental way a [computer protocol](https://en.wikipedia.org/wiki/Computer_protocol "Computer protocol") or [algorithm](https://en.wikipedia.org/wiki/Algorithm "Algorithm") is [implemented](https://en.wikipedia.org/wiki/Implementation#Computer_science "Implementation"), rather than flaws in the design of the protocol or algorithm itself. For example, by analyzing how long it takes a system to respond to different inputs, an attacker might figure out a password.
 
 Standard HTTP methods in RFC:
 - OPTIONS, TRACE
